@@ -1,4 +1,4 @@
-# UCCD2063 Artificial Intelligence Techniques Practical Assignment
+# UCCD2063 Artificial Intelligence Techniques Assignment
 
 Group project for the June-September 2026 semester. The project develops four variants of a 2D platform collector game in Godot and trains a reinforcement learning (RL) agent for each variant.
 
