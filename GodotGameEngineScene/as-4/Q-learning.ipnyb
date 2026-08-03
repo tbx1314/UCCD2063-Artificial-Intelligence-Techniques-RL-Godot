@@ -1,0 +1,64 @@
+import sys
+import subprocess
+import importlib.util
+import asyncio
+import json
+import os
+import random
+from collections import deque
+from dataclasses import dataclass
+
+import numpy as np
+import torch
+import torch.nn as nn
+import torch.optim as optim
+
+def install_if_missing(import_name, pip_name=None):
+    """Install a package only when it is not available."""
+    if pip_name is None:
+        pip_name = import_name
+
+    if importlib.util.find_spec(import_name) is None:
+        print(f"Installing {pip_name}...")
+        subprocess.check_call([sys.executable, "-m", "pip", "install", pip_name])
+    else:
+        print(f"{pip_name} already installed")
+
+
+install_if_missing("numpy")
+install_if_missing("torch")
+install_if_missing("websockets")
+
+try:
+    from websockets.asyncio.server import serve
+except ImportError:
+    import websockets
+    serve = websockets.serve
+
+SEED = 42
+
+random.seed(SEED)
+np.random.seed(SEED)
+torch.manual_seed(SEED)
+
+if torch.cuda.is_available():
+    torch.cuda.manual_seed_all(SEED)
+
+print("Seed set to:", SEED)
+
+STATE_SIZE = 13
+ACTION_SIZE = 6
+
+MODEL_PATH = "dqn_two_apples_exact_scene.pt"
+LOG_PATH = "dqn_training_log.csv"
+
+HOST = "127.0.0.1"
+PORT = 8765
+
+TRAINING_MODE = True
+PRINT_EVERY_N_STEPS = 10
+SAVE_EVERY_N_EPISODES = 10
+
+DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+print("Using device:", DEVICE)
