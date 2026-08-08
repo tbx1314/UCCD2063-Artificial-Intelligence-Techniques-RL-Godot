@@ -11,8 +11,8 @@ from typing import Any
 
 import gymnasium as gym
 import numpy as np
+from websockets.exceptions import ConnectionClosed
 from websockets.sync.server import ServerConnection, serve
-
 
 # Update these paths if Godot or the repository is moved.
 GODOT_EXECUTABLE = Path("/Applications/Godot.app/Contents/MacOS/Godot")
@@ -130,6 +130,10 @@ class GodotWebSocketServer:
             for message in websocket:
                 response = json.loads(message)
                 self._response_queue.put(response)
+        except ConnectionClosed:
+            # A disconnect is expected when close() shuts down Godot and the
+            # local WebSocket server at the end of a test or training run.
+            pass
         finally:
             if self._connection is websocket:
                 self._connection = None
@@ -262,6 +266,11 @@ class AS1GodotEnv(gym.Env[np.ndarray, int]):
     def close(self) -> None:
         """Close Godot and the local WebSocket server."""
 
+        # Close the WebSocket first so it can send a normal close frame while
+        # Godot is still alive and polling the connection.
+        if hasattr(self, "bridge"):
+            self.bridge.close()
+
         if hasattr(self, "godot_process"):
             if self.godot_process.poll() is None:
                 self.godot_process.terminate()
@@ -270,9 +279,6 @@ class AS1GodotEnv(gym.Env[np.ndarray, int]):
                     self.godot_process.wait(timeout=5)
                 except subprocess.TimeoutExpired:
                     self.godot_process.kill()
-
-        if hasattr(self, "bridge"):
-            self.bridge.close()
 
         super().close()
 

@@ -1,7 +1,5 @@
-from stable_baselines3.common.env_checker import check_env
-
 from as1_env import AS1GodotEnv
-
+from stable_baselines3.common.env_checker import check_env
 
 env = AS1GodotEnv(headless=False)
 
