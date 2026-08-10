@@ -1,0 +1,55 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Godot generated cache
+.godot/
+android/
+
+# Reinforcement-learning outputs
+models/
+results/
+runs/
+tensorboard/
+*.monitor.csv
+
+# Logs
+*.log
+
+# IDE-specific files
+.idea/
+
+# Local direnv configuration
+.envrc
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+*~
