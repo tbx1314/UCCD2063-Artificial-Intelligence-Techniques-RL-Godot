@@ -29,7 +29,7 @@ android/
 
 # Reinforcement-learning outputs
 models/
-results/
+#results/
 runs/
 tensorboard/
 *.monitor.csv

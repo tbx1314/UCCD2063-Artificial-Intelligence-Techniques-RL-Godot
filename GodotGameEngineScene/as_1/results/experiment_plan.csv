@@ -1,0 +1,5 @@
+queue_position,name,label,controlled_change,config_file,learning_rate,n_steps,batch_size,n_epochs,gamma,gae_lambda,clip_range,ent_coef
+1,baseline,Baseline,Reference configuration,01_baseline.json,0.0003,1024,64,10,0.99,0.95,0.2,0.01
+2,low_lr,Lower learning rate,learning_rate: 0.0003 to 0.0001,02_low_learning_rate.json,0.0001,1024,64,10,0.99,0.95,0.2,0.01
+3,high_entropy,Higher exploration,ent_coef: 0.01 to 0.02,03_high_entropy.json,0.0003,1024,64,10,0.99,0.95,0.2,0.02
+4,low_clip,Smaller PPO clip,clip_range: 0.20 to 0.10,04_low_clip.json,0.0003,1024,64,10,0.99,0.95,0.1,0.01

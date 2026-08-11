@@ -1,0 +1,5 @@
+episodes,mean_reward,reward_std,mean_steps,mean_apples,completion_rate,queue_position,name,label,seed,learning_rate,n_steps,batch_size,n_epochs,gamma,gae_lambda,clip_range,ent_coef
+50,-4.12361118698103,0.0,1000.0,1.0,0.0,1,baseline,Baseline,42,0.0003,1024,64,10,0.99,0.95,0.2,0.01
+50,-0.6893519042968748,3.960952761080369,24.0,0.0,0.0,2,low_lr,Lower learning rate,42,0.0001,1024,64,10,0.99,0.95,0.2,0.01
+50,-4.12062817764265,8.97195690676443e-16,1000.0,1.0,0.0,3,high_entropy,Higher exploration,42,0.0003,1024,64,10,0.99,0.95,0.2,0.02
+50,-4.120627632293528,8.569853367225881e-08,1000.0,1.0,0.0,4,low_clip,Smaller PPO clip,42,0.0003,1024,64,10,0.99,0.95,0.1,0.01

@@ -1,0 +1,5 @@
+queue_position,name,label,seed,timesteps,training_seconds,learning_rate,n_steps,batch_size,n_epochs,gamma,gae_lambda,clip_range,ent_coef
+1,baseline,Baseline,42,200704,16458.448783707994,0.0003,1024,64,10,0.99,0.95,0.2,0.01
+2,low_lr,Lower learning rate,42,200704,16754.627504165983,0.0001,1024,64,10,0.99,0.95,0.2,0.01
+3,high_entropy,Higher exploration,42,200704,16753.514677375002,0.0003,1024,64,10,0.99,0.95,0.2,0.02
+4,low_clip,Smaller PPO clip,42,200704,13595.558096375025,0.0003,1024,64,10,0.99,0.95,0.1,0.01
