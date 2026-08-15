@@ -2,7 +2,11 @@
 
 Group project for the June-September 2026 semester. The project develops four variants of a 2D platform collector game in Godot and trains a reinforcement learning (RL) agent for each variant.
 
-> **Current status:** the repository currently contains the assignment brief and four Godot scene directories. The Python RL agents, training notebooks, experiment results, report, presentation materials, and LLM prompt log still need to be added.
+> **Current status:** AS1 now contains a synchronized Godot–Gymnasium environment,
+> PPO training/evaluation notebook, four controlled configurations, validation
+> test, pilot results, and reproducibility documentation. Corrected AS1 models
+> still require retraining, and the other member scenes, combined report,
+> presentation, and LLM prompt log must be completed before submission.
 
 ## Assignment objective
 
@@ -122,4 +126,3 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the group workflow, coding standards,
 ## Academic integrity
 
 All submitted work must be understood, verified, and attributable to the group. Cite external ideas, code, media, and references appropriately. Retain the LLM prompt history required by the rubric and explain how generated material was validated or modified. Plagiarism can result in zero marks and further action under university regulations.
-

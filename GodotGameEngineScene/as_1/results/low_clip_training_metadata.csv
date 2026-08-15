@@ -1,2 +1,2 @@
 queue_position,name,label,seed,timesteps,training_seconds,learning_rate,n_steps,batch_size,n_epochs,gamma,gae_lambda,clip_range,ent_coef
-4,low_clip,Smaller PPO clip,42,200704,13595.558096375025,0.0003,1024,64,10,0.99,0.95,0.1,0.01
+4,low_clip,Smaller PPO clip,123,200704,132.29085991694592,0.0003,1024,64,10,0.99,0.95,0.1,0.01

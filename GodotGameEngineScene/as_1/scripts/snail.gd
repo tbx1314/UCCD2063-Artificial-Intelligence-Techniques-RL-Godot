@@ -26,11 +26,13 @@ var starting_direction := -1.0
 func _ready() -> void:
 	starting_position = global_position
 	starting_direction = direction
+	movement_timer.process_callback = Timer.TIMER_PROCESS_PHYSICS
 
 
-## Moves the snail horizontally every rendered frame. delta makes the distance
-## travelled per second independent of the computer's frame rate.
-func _process(delta: float) -> void:
+## Moves the snail on the physics clock used by agent_step. Keeping enemy motion
+## out of the rendered-frame callback makes every PPO action advance the player,
+## enemies and collisions by the same deterministic number of physics ticks.
+func _physics_process(delta: float) -> void:
 	if not active:
 		return
 

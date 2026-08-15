@@ -1,8 +1,0 @@
-{
-  "name": "low_clip",
-  "label": "Smaller PPO clip",
-  "change": "clip_range: 0.20 to 0.10",
-  "overrides": {
-    "clip_range": 0.1
-  }
-}

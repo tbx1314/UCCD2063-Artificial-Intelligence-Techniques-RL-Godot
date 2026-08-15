@@ -1,0 +1,2 @@
+name,label,seed,timesteps,training_seconds,learning_rate,n_steps,batch_size,n_epochs,gamma,gae_lambda,clip_range,ent_coef
+low_lr,Lower learning rate,848,200704,146.89649970806204,0.0001,1024,64,10,0.99,0.95,0.2,0.01

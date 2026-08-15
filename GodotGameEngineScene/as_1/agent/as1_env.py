@@ -3,7 +3,9 @@
 from __future__ import annotations
 
 import json
+import os
 import queue
+import shutil
 import subprocess
 import threading
 from pathlib import Path
@@ -14,14 +16,28 @@ import numpy as np
 from websockets.exceptions import ConnectionClosed
 from websockets.sync.server import ServerConnection, serve
 
-# Update these paths if Godot or the repository is moved.
-GODOT_EXECUTABLE = Path("/Applications/Godot.app/Contents/MacOS/Godot")
 
-PROJECT_DIRECTORY = Path(
-    "/Users/booxuan/Documents/"
-    "UCCD2063-Artificial-Intelligence-Techniques-RL-Godot/"
-    "GodotGameEngineScene/as_1"
-)
+def _resolve_godot_executable() -> Path:
+    """Locate Godot while allowing an explicit machine-specific override."""
+
+    override = os.environ.get("GODOT_EXECUTABLE")
+    if override:
+        return Path(override).expanduser()
+
+    # Command-line installations normally expose one of these executable names.
+    command = shutil.which("godot") or shutil.which("godot4")
+    if command:
+        return Path(command)
+
+    # Default location used by the official macOS application bundle.
+    return Path("/Applications/Godot.app/Contents/MacOS/Godot")
+
+
+GODOT_EXECUTABLE = _resolve_godot_executable()
+
+# Resolve the Godot project relative to this module so the repository can be
+# moved or opened on another group member's machine without editing source code.
+PROJECT_DIRECTORY = Path(__file__).resolve().parent.parent
 
 
 class GodotWebSocketServer:
@@ -161,7 +177,9 @@ class AS1GodotEnv(gym.Env[np.ndarray, int]):
         # The agent can select one of six integer actions.
         self.action_space = gym.spaces.Discrete(6)
 
-        # Exact boundaries corresponding to main.gd's ten observations.
+        # Exact boundaries corresponding, in order, to main.gd's twelve
+        # normalized observations. Keeping both definitions synchronized lets
+        # Gymnasium reject malformed or out-of-range states before PPO sees them.
         self.observation_space = gym.spaces.Box(
             low=np.array(
                 [
@@ -170,6 +188,8 @@ class AS1GodotEnv(gym.Env[np.ndarray, int]):
                     -1.0,  # horizontal velocity
                     -2.0,  # vertical velocity
                     0.0,  # is_on_floor
+                    0.0,  # is touching wall
+                    -1.0,  # wall-normal x
                     -1.0,  # apple dx
                     -1.0,  # apple dy
                     -1.0,  # enemy dx
@@ -180,16 +200,18 @@ class AS1GodotEnv(gym.Env[np.ndarray, int]):
             ),
             high=np.array(
                 [
-                    1.5,
-                    1.5,
-                    1.0,
-                    2.0,
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0,
+                    1.5,  # player x
+                    1.5,  # player y
+                    1.0,  # horizontal velocity
+                    2.0,  # vertical velocity
+                    1.0,  # is_on_floor
+                    1.0,  # is touching wall
+                    1.0,  # wall-normal x
+                    1.0,  # apple dx
+                    1.0,  # apple dy
+                    1.0,  # enemy dx
+                    1.0,  # enemy dy
+                    1.0,  # apples remaining
                 ],
                 dtype=np.float32,
             ),
@@ -209,6 +231,9 @@ class AS1GodotEnv(gym.Env[np.ndarray, int]):
         if headless:
             command.append("--headless")
 
+        # simulate 4x faster than real-time
+        command.extend(["--fixed-fps", "240"])
+
         self.godot_process = subprocess.Popen(command)
         self.bridge.wait_for_godot()
 
@@ -221,6 +246,11 @@ class AS1GodotEnv(gym.Env[np.ndarray, int]):
         """Start a new Godot episode and return its first observation."""
 
         super().reset(seed=seed)
+
+        # Gymnasium's environment RNG and the Discrete action-space RNG are
+        # independent. Seeding both makes the random-agent baseline repeatable.
+        if seed is not None:
+            self.action_space.seed(seed)
 
         response = self.bridge.request({"command": "reset"})
 
@@ -262,6 +292,12 @@ class AS1GodotEnv(gym.Env[np.ndarray, int]):
         truncated = reason == "timeout"
 
         return observation, reward, terminated, truncated, info
+
+    def inspect_observation(self) -> np.ndarray:
+        """Read synchronized state without executing an action or physics tick."""
+
+        response = self.bridge.request({"command": "inspect"})
+        return self._convert_observation(response["observation"])
 
     def close(self) -> None:
         """Close Godot and the local WebSocket server."""

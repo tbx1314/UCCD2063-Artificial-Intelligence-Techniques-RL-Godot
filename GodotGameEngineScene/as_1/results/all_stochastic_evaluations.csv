@@ -1,0 +1,351 @@
+name,label,episode,reward,steps,reason,apples_collected,completed
+baseline,Baseline,1,34.27069175720215,59,success,2,True
+baseline,Baseline,2,30.405692207336422,50,success,2,True
+baseline,Baseline,3,34.26335287475586,58,success,2,True
+baseline,Baseline,4,30.400534309387208,51,success,2,True
+baseline,Baseline,5,34.26005725097656,58,success,2,True
+baseline,Baseline,6,30.400534309387208,51,success,2,True
+baseline,Baseline,7,34.222601997375484,62,success,2,True
+baseline,Baseline,8,30.405692207336422,50,success,2,True
+baseline,Baseline,9,34.27069175720215,59,success,2,True
+baseline,Baseline,10,30.405692207336422,50,success,2,True
+baseline,Baseline,11,34.215833923339844,64,success,2,True
+baseline,Baseline,12,30.405692207336422,50,success,2,True
+baseline,Baseline,13,34.25095051574707,60,success,2,True
+baseline,Baseline,14,30.405692207336422,50,success,2,True
+baseline,Baseline,15,34.2509478302002,60,success,2,True
+baseline,Baseline,16,30.405692207336422,50,success,2,True
+baseline,Baseline,17,34.21196989440918,61,success,2,True
+baseline,Baseline,18,30.400534309387208,51,success,2,True
+baseline,Baseline,19,34.20005725097656,64,success,2,True
+baseline,Baseline,20,30.400534309387208,51,success,2,True
+baseline,Baseline,21,34.235201919555664,60,success,2,True
+baseline,Baseline,22,30.400534309387208,51,success,2,True
+baseline,Baseline,23,34.2509478302002,60,success,2,True
+baseline,Baseline,24,30.405692207336422,50,success,2,True
+baseline,Baseline,25,34.2509478302002,60,success,2,True
+baseline,Baseline,26,30.405692207336422,50,success,2,True
+baseline,Baseline,27,34.143352874755855,70,success,2,True
+baseline,Baseline,28,30.400534309387208,51,success,2,True
+baseline,Baseline,29,34.25494344329834,59,success,2,True
+baseline,Baseline,30,30.400534309387208,51,success,2,True
+baseline,Baseline,31,34.245833923339845,61,success,2,True
+baseline,Baseline,32,30.405692207336422,50,success,2,True
+baseline,Baseline,33,34.27069175720215,59,success,2,True
+baseline,Baseline,34,30.376025676727295,57,success,2,True
+baseline,Baseline,35,34.34703704833984,83,success,2,True
+baseline,Baseline,36,30.405692207336422,50,success,2,True
+baseline,Baseline,37,34.194943443298335,65,success,2,True
+baseline,Baseline,38,30.400534309387208,51,success,2,True
+baseline,Baseline,39,34.27069175720215,59,success,2,True
+baseline,Baseline,40,30.405692207336422,50,success,2,True
+baseline,Baseline,41,34.22094792938232,63,success,2,True
+baseline,Baseline,42,30.405692207336422,50,success,2,True
+baseline,Baseline,43,34.205578147888176,66,success,2,True
+baseline,Baseline,44,30.405692207336422,50,success,2,True
+baseline,Baseline,45,34.27069175720215,59,success,2,True
+baseline,Baseline,46,30.405692207336422,50,success,2,True
+baseline,Baseline,47,34.2509478302002,60,success,2,True
+baseline,Baseline,48,30.405692207336422,50,success,2,True
+baseline,Baseline,49,34.22771857452392,61,success,2,True
+baseline,Baseline,50,30.405692207336422,50,success,2,True
+low_lr,Lower learning rate,1,34.23849402618407,60,success,2,True
+low_lr,Lower learning rate,2,30.3600871963501,53,success,2,True
+low_lr,Lower learning rate,3,34.25823849487305,59,success,2,True
+low_lr,Lower learning rate,4,30.39247249221802,52,success,2,True
+low_lr,Lower learning rate,5,34.25823845672607,59,success,2,True
+low_lr,Lower learning rate,6,30.392472229003907,52,success,2,True
+low_lr,Lower learning rate,7,34.24823845672607,60,success,2,True
+low_lr,Lower learning rate,8,30.38247275161743,53,success,2,True
+low_lr,Lower learning rate,9,34.215262207031245,61,success,2,True
+low_lr,Lower learning rate,10,30.392472404479978,52,success,2,True
+low_lr,Lower learning rate,11,34.238494422912595,60,success,2,True
+low_lr,Lower learning rate,12,30.38247249221802,53,success,2,True
+low_lr,Lower learning rate,13,34.10258631896972,74,success,2,True
+low_lr,Lower learning rate,14,30.355244903564454,53,success,2,True
+low_lr,Lower learning rate,15,34.222601356506345,62,success,2,True
+low_lr,Lower learning rate,16,30.36524479675293,52,success,2,True
+low_lr,Lower learning rate,17,34.23849420166015,60,success,2,True
+low_lr,Lower learning rate,18,30.360087051391602,53,success,2,True
+low_lr,Lower learning rate,19,33.89527715301514,93,success,2,True
+low_lr,Lower learning rate,20,30.333668182373046,56,success,2,True
+low_lr,Lower learning rate,21,34.10526266479492,72,success,2,True
+low_lr,Lower learning rate,22,30.362261329650877,52,success,2,True
+low_lr,Lower learning rate,23,34.25823849487304,59,success,2,True
+low_lr,Lower learning rate,24,30.36008712005615,53,success,2,True
+low_lr,Lower learning rate,25,34.21526245117187,61,success,2,True
+low_lr,Lower learning rate,26,30.362261329650877,52,success,2,True
+low_lr,Lower learning rate,27,34.19766455078124,66,success,2,True
+low_lr,Lower learning rate,28,30.392472751617433,52,success,2,True
+low_lr,Lower learning rate,29,34.23849420166015,60,success,2,True
+low_lr,Lower learning rate,30,30.392472751617433,52,success,2,True
+low_lr,Lower learning rate,31,34.25823849487305,59,success,2,True
+low_lr,Lower learning rate,32,30.35226150512695,53,success,2,True
+low_lr,Lower learning rate,33,34.24583308410645,61,success,2,True
+low_lr,Lower learning rate,34,30.397630016326904,51,success,2,True
+low_lr,Lower learning rate,35,34.25823845672607,59,success,2,True
+low_lr,Lower learning rate,36,30.392472751617433,52,success,2,True
+low_lr,Lower learning rate,37,34.25823860931396,59,success,2,True
+low_lr,Lower learning rate,38,30.362261688232422,52,success,2,True
+low_lr,Lower learning rate,39,34.105262802124024,72,success,2,True
+low_lr,Lower learning rate,40,30.39247205734253,52,success,2,True
+low_lr,Lower learning rate,41,34.25823849487304,59,success,2,True
+low_lr,Lower learning rate,42,30.392472404479978,52,success,2,True
+low_lr,Lower learning rate,43,34.10526250457764,72,success,2,True
+low_lr,Lower learning rate,44,30.360087196350097,53,success,2,True
+low_lr,Lower learning rate,45,34.21526245117187,61,success,2,True
+low_lr,Lower learning rate,46,30.392472404479978,52,success,2,True
+low_lr,Lower learning rate,47,34.02850894927979,81,success,2,True
+low_lr,Lower learning rate,48,30.352261505126954,53,success,2,True
+low_lr,Lower learning rate,49,34.10526274871826,72,success,2,True
+low_lr,Lower learning rate,50,30.362261039733887,52,success,2,True
+high_entropy,Higher exploration,1,-9.831929138183593,29,enemy,0,False
+high_entropy,Higher exploration,2,-9.834378051757811,23,enemy,0,False
+high_entropy,Higher exploration,3,34.41636232757568,73,success,2,True
+high_entropy,Higher exploration,4,30.401391639709473,50,success,2,True
+high_entropy,Higher exploration,5,34.25543952941895,60,success,2,True
+high_entropy,Higher exploration,6,30.372415443420408,51,success,2,True
+high_entropy,Higher exploration,7,34.09895834350586,65,success,2,True
+high_entropy,Higher exploration,8,30.373097953796385,50,success,2,True
+high_entropy,Higher exploration,9,34.178958320617674,57,success,2,True
+high_entropy,Higher exploration,10,30.367441246032715,51,success,2,True
+high_entropy,Higher exploration,11,34.23127153778077,60,success,2,True
+high_entropy,Higher exploration,12,-4.823569763183592,23,enemy,1,False
+high_entropy,Higher exploration,13,34.13023683166503,101,success,2,True
+high_entropy,Higher exploration,14,30.37241530609131,51,success,2,True
+high_entropy,Higher exploration,15,34.25810247039796,58,success,2,True
+high_entropy,Higher exploration,16,30.37309775543213,50,success,2,True
+high_entropy,Higher exploration,17,34.233737625122075,61,success,2,True
+high_entropy,Higher exploration,18,30.372415168762206,51,success,2,True
+high_entropy,Higher exploration,19,34.23640056610108,59,success,2,True
+high_entropy,Higher exploration,20,30.401391921997067,50,success,2,True
+high_entropy,Higher exploration,21,33.87138176345825,92,success,2,True
+high_entropy,Higher exploration,22,30.401374015808102,50,success,2,True
+high_entropy,Higher exploration,23,34.23640056610108,59,success,2,True
+high_entropy,Higher exploration,24,30.401392486572263,50,success,2,True
+high_entropy,Higher exploration,25,34.23640056610108,59,success,2,True
+high_entropy,Higher exploration,26,30.372433494567872,51,success,2,True
+high_entropy,Higher exploration,27,34.18631552124023,58,success,2,True
+high_entropy,Higher exploration,28,30.401374015808102,50,success,2,True
+high_entropy,Higher exploration,29,33.566400588989254,126,success,2,True
+high_entropy,Higher exploration,30,30.401391921997067,50,success,2,True
+high_entropy,Higher exploration,31,34.23640056610108,59,success,2,True
+high_entropy,Higher exploration,32,30.36790301513672,52,success,2,True
+high_entropy,Higher exploration,33,34.23640056610108,59,success,2,True
+high_entropy,Higher exploration,34,30.37309775543213,50,success,2,True
+high_entropy,Higher exploration,35,34.18629537963868,58,success,2,True
+high_entropy,Higher exploration,36,30.401373733520508,50,success,2,True
+high_entropy,Higher exploration,37,34.23640056610108,59,success,2,True
+high_entropy,Higher exploration,38,30.401392204284665,50,success,2,True
+high_entropy,Higher exploration,39,34.23640058898926,59,success,2,True
+high_entropy,Higher exploration,40,30.40139220428467,50,success,2,True
+high_entropy,Higher exploration,41,34.25810232543945,58,success,2,True
+high_entropy,Higher exploration,42,30.37309775543213,50,success,2,True
+high_entropy,Higher exploration,43,34.23640056610108,59,success,2,True
+high_entropy,Higher exploration,44,30.372433631896968,51,success,2,True
+high_entropy,Higher exploration,45,34.10479856109619,75,success,2,True
+high_entropy,Higher exploration,46,30.401374015808106,50,success,2,True
+high_entropy,Higher exploration,47,34.23640079498291,59,success,2,True
+high_entropy,Higher exploration,48,30.401392486572266,50,success,2,True
+high_entropy,Higher exploration,49,34.168958343505864,58,success,2,True
+high_entropy,Higher exploration,50,30.372433494567872,51,success,2,True
+low_clip,Smaller PPO clip,1,34.21392939758301,62,success,2,True
+low_clip,Smaller PPO clip,2,30.36625856018066,52,success,2,True
+low_clip,Smaller PPO clip,3,34.255439712524414,60,success,2,True
+low_clip,Smaller PPO clip,4,30.365240264892577,52,success,2,True
+low_clip,Smaller PPO clip,5,34.25543952941895,60,success,2,True
+low_clip,Smaller PPO clip,6,30.387630016326906,52,success,2,True
+low_clip,Smaller PPO clip,7,34.136295402526855,63,success,2,True
+low_clip,Smaller PPO clip,8,30.365696571350096,52,success,2,True
+low_clip,Smaller PPO clip,9,34.23373790740967,61,success,2,True
+low_clip,Smaller PPO clip,10,30.357411697387697,52,success,2,True
+low_clip,Smaller PPO clip,11,34.203928100585934,63,success,2,True
+low_clip,Smaller PPO clip,12,30.373079368591306,50,success,2,True
+low_clip,Smaller PPO clip,13,34.17629537963867,59,success,2,True
+low_clip,Smaller PPO clip,14,30.401373168945312,50,success,2,True
+low_clip,Smaller PPO clip,15,34.213929443359376,62,success,2,True
+low_clip,Smaller PPO clip,16,30.401373168945312,50,success,2,True
+low_clip,Smaller PPO clip,17,34.241202972412104,62,success,2,True
+low_clip,Smaller PPO clip,18,30.36876906967163,54,success,2,True
+low_clip,Smaller PPO clip,19,34.2600217590332,60,success,2,True
+low_clip,Smaller PPO clip,20,-12.300299591064448,1000,timeout,1,False
+low_clip,Smaller PPO clip,21,34.38786449432373,77,success,2,True
+low_clip,Smaller PPO clip,22,30.35524472808838,53,success,2,True
+low_clip,Smaller PPO clip,23,34.17629537963867,59,success,2,True
+low_clip,Smaller PPO clip,24,30.40137345123291,50,success,2,True
+low_clip,Smaller PPO clip,25,34.233737854003905,61,success,2,True
+low_clip,Smaller PPO clip,26,30.365240264892577,52,success,2,True
+low_clip,Smaller PPO clip,27,34.119322837829586,73,success,2,True
+low_clip,Smaller PPO clip,28,30.37139192199707,53,success,2,True
+low_clip,Smaller PPO clip,29,34.176295379638674,59,success,2,True
+low_clip,Smaller PPO clip,30,30.39875471115112,51,success,2,True
+low_clip,Smaller PPO clip,31,34.233737854003905,61,success,2,True
+low_clip,Smaller PPO clip,32,30.37307916259766,50,success,2,True
+low_clip,Smaller PPO clip,33,34.25543957519531,60,success,2,True
+low_clip,Smaller PPO clip,34,30.37307916259766,50,success,2,True
+low_clip,Smaller PPO clip,35,34.176295379638674,59,success,2,True
+low_clip,Smaller PPO clip,36,30.37307916259766,50,success,2,True
+low_clip,Smaller PPO clip,37,34.21772250366211,62,success,2,True
+low_clip,Smaller PPO clip,38,30.40137345123291,50,success,2,True
+low_clip,Smaller PPO clip,39,34.176295379638674,59,success,2,True
+low_clip,Smaller PPO clip,40,30.398754539489744,51,success,2,True
+low_clip,Smaller PPO clip,41,34.255439712524414,60,success,2,True
+low_clip,Smaller PPO clip,42,30.3730789642334,50,success,2,True
+low_clip,Smaller PPO clip,43,34.262029758453366,60,success,2,True
+low_clip,Smaller PPO clip,44,30.37309735107422,50,success,2,True
+low_clip,Smaller PPO clip,45,34.240951156616205,61,success,2,True
+low_clip,Smaller PPO clip,46,30.372415031433107,51,success,2,True
+low_clip,Smaller PPO clip,47,34.26069297790527,60,success,2,True
+low_clip,Smaller PPO clip,48,30.373079368591306,50,success,2,True
+low_clip,Smaller PPO clip,49,34.25543952941895,60,success,2,True
+low_clip,Smaller PPO clip,50,30.37307916259766,50,success,2,True
+very_high_entropy,Much higher exploration,1,34.23032769393921,62,success,2,True
+very_high_entropy,Much higher exploration,2,30.411392486572264,49,success,2,True
+very_high_entropy,Much higher exploration,3,34.18629537963867,58,success,2,True
+very_high_entropy,Much higher exploration,4,30.411374015808107,49,success,2,True
+very_high_entropy,Much higher exploration,5,34.14775639724731,63,success,2,True
+very_high_entropy,Much higher exploration,6,30.382433586120605,50,success,2,True
+very_high_entropy,Much higher exploration,7,34.250327693939205,60,success,2,True
+very_high_entropy,Much higher exploration,8,30.349175552368163,53,success,2,True
+very_high_entropy,Much higher exploration,9,34.222029621124264,64,success,2,True
+very_high_entropy,Much higher exploration,10,30.38309775543213,49,success,2,True
+very_high_entropy,Much higher exploration,11,34.26238829421997,60,success,2,True
+very_high_entropy,Much higher exploration,12,30.382433586120605,50,success,2,True
+very_high_entropy,Much higher exploration,13,34.27202962112427,59,success,2,True
+very_high_entropy,Much higher exploration,14,30.38309775543213,49,success,2,True
+very_high_entropy,Much higher exploration,15,34.240313915252685,61,success,2,True
+very_high_entropy,Much higher exploration,16,30.36309775543213,51,success,2,True
+very_high_entropy,Much higher exploration,17,34.0403281326294,81,success,2,True
+very_high_entropy,Much higher exploration,18,30.36309775543213,51,success,2,True
+very_high_entropy,Much higher exploration,19,34.182885425567626,59,success,2,True
+very_high_entropy,Much higher exploration,20,30.373079765319822,50,success,2,True
+very_high_entropy,Much higher exploration,21,34.22024502944946,62,success,2,True
+very_high_entropy,Much higher exploration,22,30.3824333114624,50,success,2,True
+very_high_entropy,Much higher exploration,23,34.23810251617432,60,success,2,True
+very_high_entropy,Much higher exploration,24,30.411392204284667,49,success,2,True
+very_high_entropy,Much higher exploration,25,34.275459693908694,58,success,2,True
+very_high_entropy,Much higher exploration,26,30.34241516876221,54,success,2,True
+very_high_entropy,Much higher exploration,27,34.227953952789306,62,success,2,True
+very_high_entropy,Much higher exploration,28,30.232379158020017,66,success,2,True
+very_high_entropy,Much higher exploration,29,34.19640058898926,63,success,2,True
+very_high_entropy,Much higher exploration,30,30.411392204284667,49,success,2,True
+very_high_entropy,Much higher exploration,31,34.04147300720215,81,success,2,True
+very_high_entropy,Much higher exploration,32,30.38243349456787,50,success,2,True
+very_high_entropy,Much higher exploration,33,34.18288542556762,59,success,2,True
+very_high_entropy,Much higher exploration,34,30.401389991760254,50,success,2,True
+very_high_entropy,Much higher exploration,35,34.14147358322143,71,success,2,True
+very_high_entropy,Much higher exploration,36,30.38243349456787,50,success,2,True
+very_high_entropy,Much higher exploration,37,34.25032769393921,60,success,2,True
+very_high_entropy,Much higher exploration,38,30.382433776855468,50,success,2,True
+very_high_entropy,Much higher exploration,39,34.157612243652345,70,success,2,True
+very_high_entropy,Much higher exploration,40,30.41139192199707,49,success,2,True
+very_high_entropy,Much higher exploration,41,34.192885425567624,58,success,2,True
+very_high_entropy,Much higher exploration,42,30.383097953796387,49,success,2,True
+very_high_entropy,Much higher exploration,43,34.262029430389404,60,success,2,True
+very_high_entropy,Much higher exploration,44,30.407209701538086,51,success,2,True
+very_high_entropy,Much higher exploration,45,34.1903138923645,66,success,2,True
+very_high_entropy,Much higher exploration,46,30.372433586120607,51,success,2,True
+very_high_entropy,Much higher exploration,47,34.25545969390869,60,success,2,True
+very_high_entropy,Much higher exploration,48,30.38671268463135,49,success,2,True
+very_high_entropy,Much higher exploration,49,34.16931372070312,70,success,2,True
+very_high_entropy,Much higher exploration,50,30.40024826812744,51,success,2,True
+high_gamma,More patient (higher discount),1,34.20862871551514,64,success,2,True
+high_gamma,More patient (higher discount),2,30.401373733520508,50,success,2,True
+high_gamma,More patient (higher discount),3,34.230330993652345,63,success,2,True
+high_gamma,More patient (higher discount),4,30.40137345123291,50,success,2,True
+high_gamma,More patient (higher discount),5,34.26557737731934,60,success,2,True
+high_gamma,More patient (higher discount),6,30.362422927856443,52,success,2,True
+high_gamma,More patient (higher discount),7,34.15033047485352,71,success,2,True
+high_gamma,More patient (higher discount),8,30.367884826660156,52,success,2,True
+high_gamma,More patient (higher discount),9,34.13862847900391,71,success,2,True
+high_gamma,More patient (higher discount),10,30.367419174194335,51,success,2,True
+high_gamma,More patient (higher discount),11,34.240330467224126,62,success,2,True
+high_gamma,More patient (higher discount),12,30.372415031433103,51,success,2,True
+high_gamma,More patient (higher discount),13,34.07260125732422,77,success,2,True
+high_gamma,More patient (higher discount),14,30.381374015808106,52,success,2,True
+high_gamma,More patient (higher discount),15,34.160330993652344,70,success,2,True
+high_gamma,More patient (higher discount),16,30.374156333923338,52,success,2,True
+high_gamma,More patient (higher discount),17,34.41372749328613,75,success,2,True
+high_gamma,More patient (higher discount),18,30.401373168945312,50,success,2,True
+high_gamma,More patient (higher discount),19,34.14862920379639,70,success,2,True
+high_gamma,More patient (higher discount),20,30.365696334838866,52,success,2,True
+high_gamma,More patient (higher discount),21,34.19260154724121,65,success,2,True
+high_gamma,More patient (higher discount),22,30.37241516876221,51,success,2,True
+high_gamma,More patient (higher discount),23,33.873816291809085,98,success,2,True
+high_gamma,More patient (higher discount),24,30.370479988098143,57,success,2,True
+high_gamma,More patient (higher discount),25,34.205833084106445,65,success,2,True
+high_gamma,More patient (higher discount),26,30.352423156738276,53,success,2,True
+high_gamma,More patient (higher discount),27,34.23862894439698,61,success,2,True
+high_gamma,More patient (higher discount),28,30.372415168762206,51,success,2,True
+high_gamma,More patient (higher discount),29,34.17862922668457,67,success,2,True
+high_gamma,More patient (higher discount),30,30.401373733520508,50,success,2,True
+high_gamma,More patient (higher discount),31,34.20862894439698,64,success,2,True
+high_gamma,More patient (higher discount),32,30.398754970550534,51,success,2,True
+high_gamma,More patient (higher discount),33,33.91713288116455,94,success,2,True
+high_gamma,More patient (higher discount),34,30.287419174194337,59,success,2,True
+high_gamma,More patient (higher discount),35,34.12128936004638,71,success,2,True
+high_gamma,More patient (higher discount),36,30.271986557006834,62,success,2,True
+high_gamma,More patient (higher discount),37,34.110333778381346,75,success,2,True
+high_gamma,More patient (higher discount),38,30.372415031433103,51,success,2,True
+high_gamma,More patient (higher discount),39,34.04860089874268,80,success,2,True
+high_gamma,More patient (higher discount),40,30.40137345123291,50,success,2,True
+high_gamma,More patient (higher discount),41,34.160330619812015,70,success,2,True
+high_gamma,More patient (higher discount),42,30.39138914489746,51,success,2,True
+high_gamma,More patient (higher discount),43,34.26033061981202,60,success,2,True
+high_gamma,More patient (higher discount),44,30.362423019409178,52,success,2,True
+high_gamma,More patient (higher discount),45,34.07257051086425,77,success,2,True
+high_gamma,More patient (higher discount),46,30.381373542785646,52,success,2,True
+high_gamma,More patient (higher discount),47,33.724474636077886,116,success,2,True
+high_gamma,More patient (higher discount),48,30.362261039733887,52,success,2,True
+high_gamma,More patient (higher discount),49,34.0486146774292,80,success,2,True
+high_gamma,More patient (higher discount),50,30.298709632873535,59,success,2,True
+larger_rollout,Larger rollout batch,1,-9.824378479003906,22,enemy,0,False
+larger_rollout,Larger rollout batch,2,-9.824376403808593,22,enemy,0,False
+larger_rollout,Larger rollout batch,3,34.151943046569826,100,success,2,True
+larger_rollout,Larger rollout batch,4,30.372433219909666,51,success,2,True
+larger_rollout,Larger rollout batch,5,34.178958320617674,57,success,2,True
+larger_rollout,Larger rollout batch,6,30.40139192199707,50,success,2,True
+larger_rollout,Larger rollout batch,7,34.178958320617674,57,success,2,True
+larger_rollout,Larger rollout batch,8,30.37243335723877,51,success,2,True
+larger_rollout,Larger rollout batch,9,34.178958320617674,57,success,2,True
+larger_rollout,Larger rollout batch,10,30.37309735107422,50,success,2,True
+larger_rollout,Larger rollout batch,11,34.22640079498292,60,success,2,True
+larger_rollout,Larger rollout batch,12,30.37243335723877,51,success,2,True
+larger_rollout,Larger rollout batch,13,34.23640105438233,59,success,2,True
+larger_rollout,Larger rollout batch,14,30.372433494567872,51,success,2,True
+larger_rollout,Larger rollout batch,15,34.178958320617674,57,success,2,True
+larger_rollout,Larger rollout batch,16,30.37243335723877,51,success,2,True
+larger_rollout,Larger rollout batch,17,34.25810265350342,58,success,2,True
+larger_rollout,Larger rollout batch,18,30.37243335723877,51,success,2,True
+larger_rollout,Larger rollout batch,19,34.236400848388676,59,success,2,True
+larger_rollout,Larger rollout batch,20,30.36819765472412,51,success,2,True
+larger_rollout,Larger rollout batch,21,34.23640079498291,59,success,2,True
+larger_rollout,Larger rollout batch,22,30.401391357421875,50,success,2,True
+larger_rollout,Larger rollout batch,23,34.17382929229736,58,success,2,True
+larger_rollout,Larger rollout batch,24,30.372433357238773,51,success,2,True
+larger_rollout,Larger rollout batch,25,34.25810247039796,58,success,2,True
+larger_rollout,Larger rollout batch,26,30.37309735107422,50,success,2,True
+larger_rollout,Larger rollout batch,27,34.178958320617674,57,success,2,True
+larger_rollout,Larger rollout batch,28,30.367257347106936,52,success,2,True
+larger_rollout,Larger rollout batch,29,34.05333946990967,78,success,2,True
+larger_rollout,Larger rollout batch,30,30.401391639709473,50,success,2,True
+larger_rollout,Larger rollout batch,31,34.25810232543945,58,success,2,True
+larger_rollout,Larger rollout batch,32,-4.823569763183592,23,enemy,1,False
+larger_rollout,Larger rollout batch,33,-9.824378479003906,22,enemy,0,False
+larger_rollout,Larger rollout batch,34,-9.824376403808593,22,enemy,0,False
+larger_rollout,Larger rollout batch,35,-9.834378479003906,23,enemy,0,False
+larger_rollout,Larger rollout batch,36,-9.834376403808594,23,enemy,0,False
+larger_rollout,Larger rollout batch,37,-9.834376403808594,23,enemy,0,False
+larger_rollout,Larger rollout batch,38,-9.78202813720703,26,enemy,0,False
+larger_rollout,Larger rollout batch,39,-9.834378051757811,23,enemy,0,False
+larger_rollout,Larger rollout batch,40,34.23981981658936,88,success,2,True
+larger_rollout,Larger rollout batch,41,30.401391639709473,50,success,2,True
+larger_rollout,Larger rollout batch,42,33.96895832061767,78,success,2,True
+larger_rollout,Larger rollout batch,43,30.372433219909666,51,success,2,True
+larger_rollout,Larger rollout batch,44,34.23640128326416,59,success,2,True
+larger_rollout,Larger rollout batch,45,-4.823569763183592,23,enemy,1,False
+larger_rollout,Larger rollout batch,46,-9.824376403808593,22,enemy,0,False
+larger_rollout,Larger rollout batch,47,-9.824376403808593,22,enemy,0,False
+larger_rollout,Larger rollout batch,48,-9.834376403808594,23,enemy,0,False
+larger_rollout,Larger rollout batch,49,34.430817424774176,74,success,2,True
+larger_rollout,Larger rollout batch,50,-4.823569763183592,23,enemy,1,False

@@ -1,0 +1,2 @@
+episodes,mean_reward,reward_std,mean_steps,mean_apples,completion_rate,queue_position,name,label,seed,learning_rate,n_steps,batch_size,n_epochs,gamma,gae_lambda,clip_range,ent_coef
+50,-9.814376403808593,0.0,21.0,0.0,0.0,7,larger_rollout,Larger rollout batch,123,0.0003,2048,64,10,0.99,0.95,0.2,0.01

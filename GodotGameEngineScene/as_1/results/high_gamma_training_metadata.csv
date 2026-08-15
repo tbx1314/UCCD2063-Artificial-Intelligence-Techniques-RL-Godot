@@ -1,0 +1,2 @@
+queue_position,name,label,seed,timesteps,training_seconds,learning_rate,n_steps,batch_size,n_epochs,gamma,gae_lambda,clip_range,ent_coef
+6,high_gamma,More patient (higher discount),123,200704,138.35558120906353,0.0003,1024,64,10,0.995,0.95,0.2,0.01

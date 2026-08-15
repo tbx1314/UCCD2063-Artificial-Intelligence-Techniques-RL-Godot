@@ -1,0 +1,2 @@
+episodes,mean_reward,reward_std,mean_steps,mean_apples,completion_rate,queue_position,name,label,seed,learning_rate,n_steps,batch_size,n_epochs,gamma,gae_lambda,clip_range,ent_coef
+50,29.893211410598752,9.906132164205353,56.5,1.9,0.94,3,high_entropy,Higher exploration,123,0.0003,1024,64,10,0.99,0.95,0.2,0.02

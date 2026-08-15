@@ -6,14 +6,18 @@ const SERVER_URL := "ws://127.0.0.1:8765"
 
 @onready var environment = get_parent()
 
+# True after Python connects. During an agent session, the SceneTree stays
+# paused between requests so no collision or reward can occur outside step().
+var agent_session_active := false
 var socket := WebSocketPeer.new()
 var step_in_progress := false
 
 
 ## Starts the WebSocket connection after the complete Main scene is ready.
 func _ready() -> void:
+	# The bridge must continue polling while gameplay is paused.
+	process_mode = Node.PROCESS_MODE_ALWAYS
 	call_deferred("_connect_to_python")
-
 
 ## Creates a non-blocking connection to the Python WebSocket server.
 func _connect_to_python() -> void:
@@ -31,6 +35,10 @@ func _process(_delta: float) -> void:
 	var state := socket.get_ready_state()
 
 	if state == WebSocketPeer.STATE_OPEN:
+		if not agent_session_active:
+			agent_session_active = true
+			get_tree().paused = true
+
 		while socket.get_available_packet_count() > 0:
 			var packet := socket.get_packet()
 
@@ -38,6 +46,10 @@ func _process(_delta: float) -> void:
 				var message := packet.get_string_from_utf8()
 				_handle_message(message)
 
+	elif agent_session_active:
+		# Restore normal Godot behaviour if Python disconnects.
+		agent_session_active = false
+		get_tree().paused = false
 
 ## Converts incoming JSON into either an environment reset or one agent step.
 func _handle_message(message: String) -> void:
@@ -61,6 +73,14 @@ func _handle_message(message: String) -> void:
 			var action: int = int(request.get("action", 0))
 			_process_agent_step(action)
 
+		"inspect":
+			# Diagnostic command used by test_environment.py. It must remain
+			# read-only so repeated calls can prove that paused state is stable.
+			_send_json({
+				"type": "inspect_result",
+				"observation": environment.get_observation()
+			})
+
 		_:
 			_send_error("Unknown command: %s" % command)
 
@@ -71,15 +91,18 @@ func _handle_reset() -> void:
 		_send_error("Cannot reset while a step is being processed")
 		return
 
+	get_tree().paused = true
 	var observation: Array = environment.reset_episode()
 
 	_send_json({
 		"type": "reset_result",
 		"observation": observation,
 		"info": {
-			"reason": "",
-			"steps": 0,
-			"apples_collected": 0
+    	"reason": "",
+    	"steps": 0,
+    	"apples_collected": 0,
+    	"player_x": environment.player.global_position.x,
+    	"player_y": environment.player.global_position.y,
 		}
 	})
 
@@ -89,9 +112,12 @@ func _handle_reset() -> void:
 func _process_agent_step(action: int) -> void:
 	step_in_progress = true
 
+	# Allow gameplay to advance only during this action.
+	get_tree().paused = false
 	var result: Dictionary = await environment.agent_step(action)
-	result["type"] = "step_result"
+	get_tree().paused = true
 
+	result["type"] = "step_result"
 	_send_json(result)
 	step_in_progress = false
 

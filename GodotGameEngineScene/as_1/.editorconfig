@@ -2,3 +2,21 @@ root = true
 
 [*]
 charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.gd]
+# Godot's official style uses one tab per indentation level. The Godot Tools
+# VS Code formatter applies this automatically when a GDScript file is saved.
+indent_style = tab
+indent_size = 4
+tab_width = 4
+
+[*.py]
+indent_style = space
+indent_size = 4
+
+[*.{json,md}]
+indent_style = space
+indent_size = 2

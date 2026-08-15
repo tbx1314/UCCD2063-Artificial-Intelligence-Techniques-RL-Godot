@@ -29,10 +29,17 @@ android/
 
 # Reinforcement-learning outputs
 models/
+results/_metadata.csv
 #results/
 runs/
 tensorboard/
 *.monitor.csv
+
+# Godot may try to import report evidence when the results folder is browsed in
+# the editor. Keep the original CSV/PNG evidence, but ignore generated import
+# metadata and translation-column artifacts.
+GodotGameEngineScene/*/results/**/*.import
+GodotGameEngineScene/*/results/**/*.translation
 
 # Logs
 *.log
@@ -45,6 +52,7 @@ tensorboard/
 
 .vscode/*
 !.vscode/extensions.json
+!.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 
