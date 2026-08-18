@@ -1,2 +1,2 @@
 name,label,seed,timesteps,training_seconds,learning_rate,n_steps,batch_size,n_epochs,gamma,gae_lambda,clip_range,ent_coef
-very_high_entropy,Much higher exploration,848,200704,133.14813333307393,0.0003,1024,64,10,0.99,0.95,0.2,0.05
+very_high_entropy,Much higher exploration,848,200704,113.35743912495673,0.0003,1024,64,10,0.99,0.95,0.2,0.05

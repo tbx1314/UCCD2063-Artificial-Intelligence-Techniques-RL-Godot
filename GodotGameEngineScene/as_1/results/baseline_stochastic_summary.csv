@@ -1,2 +1,2 @@
 episodes,mean_reward,reward_std,mean_steps,mean_apples,completion_rate,queue_position,name,label,seed,learning_rate,n_steps,batch_size,n_epochs,gamma,gae_lambda,clip_range,ent_coef
-50,32.32258013175964,1.9393998427173547,56.3,2.0,1.0,1,baseline,Baseline,123,0.0003,1024,64,10,0.99,0.95,0.2,0.01
+50,31.650145816268925,5.071452249579729,59.64,1.98,0.98,1,baseline,Baseline,123,0.0003,1024,64,10,0.99,0.95,0.2,0.01
