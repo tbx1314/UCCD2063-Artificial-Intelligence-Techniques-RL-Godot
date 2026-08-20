@@ -1,2 +1,2 @@
 name,label,seed,timesteps,training_seconds,learning_rate,n_steps,batch_size,n_epochs,gamma,gae_lambda,clip_range,ent_coef
-baseline,Baseline,203,200704,121.41089754202403,0.0003,1024,64,10,0.99,0.95,0.2,0.01
+baseline,Baseline,203,200704,117.817788750006,0.0003,1024,64,10,0.99,0.95,0.2,0.01

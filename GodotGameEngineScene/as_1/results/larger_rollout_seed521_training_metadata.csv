@@ -1,2 +1,2 @@
 name,label,seed,timesteps,training_seconds,learning_rate,n_steps,batch_size,n_epochs,gamma,gae_lambda,clip_range,ent_coef
-larger_rollout,Larger rollout batch,521,200704,117.0683835420059,0.0003,2048,64,10,0.99,0.95,0.2,0.01
+larger_rollout,Larger rollout batch,521,200704,123.84063712498755,0.0003,2048,64,10,0.99,0.95,0.2,0.01

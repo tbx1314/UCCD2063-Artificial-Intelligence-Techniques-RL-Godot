@@ -1,2 +1,2 @@
 queue_position,name,label,seed,timesteps,training_seconds,learning_rate,n_steps,batch_size,n_epochs,gamma,gae_lambda,clip_range,ent_coef
-2,low_lr,Lower learning rate,123,200704,110.48445166694,0.0001,1024,64,10,0.99,0.95,0.2,0.01
+2,low_lr,Lower learning rate,123,200704,143.65613004199986,0.0001,1024,64,10,0.99,0.95,0.2,0.01

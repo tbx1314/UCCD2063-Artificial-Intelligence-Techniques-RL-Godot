@@ -1,2 +1,2 @@
-episodes,mean_reward,reward_std,mean_steps,mean_apples,completion_rate,queue_position,name,label,seed,learning_rate,n_steps,batch_size,n_epochs,gamma,gae_lambda,clip_range,ent_coef
-50,0.8538094681549253,15.460488191748418,783.52,1.22,0.24,6,high_gamma,More patient (higher discount),123,0.0003,1024,64,10,0.995,0.95,0.2,0.01
+episodes,mean_reward,reward_std,mean_steps,mean_distance,mean_apples,completion_rate,queue_position,name,label,seed,learning_rate,n_steps,batch_size,n_epochs,gamma,gae_lambda,clip_range,ent_coef
+50,0.8538094681549253,15.460488191748418,783.52,20564.033836805076,1.22,0.24,6,high_gamma,More patient (higher discount),123,0.0003,1024,64,10,0.995,0.95,0.2,0.01

@@ -1,2 +1,2 @@
-episodes,mean_reward,reward_std,mean_steps,mean_apples,completion_rate,queue_position,name,label,seed,learning_rate,n_steps,batch_size,n_epochs,gamma,gae_lambda,clip_range,ent_coef
-50,17.730593332214358,17.39645217286436,406.08,1.64,0.68,5,very_high_entropy,Much higher exploration,123,0.0003,1024,64,10,0.99,0.95,0.2,0.05
+episodes,mean_reward,reward_std,mean_steps,mean_distance,mean_apples,completion_rate,queue_position,name,label,seed,learning_rate,n_steps,batch_size,n_epochs,gamma,gae_lambda,clip_range,ent_coef
+50,17.730593332214358,17.39645217286436,406.08,11403.91434803028,1.64,0.68,5,very_high_entropy,Much higher exploration,123,0.0003,1024,64,10,0.99,0.95,0.2,0.05
