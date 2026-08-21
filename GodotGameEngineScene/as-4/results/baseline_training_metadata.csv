@@ -1,0 +1,2 @@
+queue_position,name,label,seed,port,timesteps,states_visited,final_epsilon,training_seconds,status,alpha,gamma,epsilon_start,epsilon_min,epsilon_decay
+1,baseline,Baseline,123,9201,500000,692,0.6722672775427828,781.9593641000101,completed,0.1,0.99,1.0,0.05,0.9995

@@ -1,0 +1,8 @@
+queue_position,name,label,controlled_change,alpha,gamma,epsilon_start,epsilon_min,epsilon_decay
+1,baseline,Baseline,Reference configuration,0.1,0.99,1.0,0.05,0.9995
+2,low_alpha,Lower learning rate,alpha: 0.1 to 0.03,0.03,0.99,1.0,0.05,0.9995
+3,high_alpha,Higher learning rate,alpha: 0.1 to 0.3,0.3,0.99,1.0,0.05,0.9995
+4,high_exploration,Higher exploration floor,epsilon_min: 0.05 to 0.15,0.1,0.99,1.0,0.15,0.9995
+5,very_high_exploration,Much higher exploration floor,epsilon_min: 0.05 to 0.30,0.1,0.99,1.0,0.3,0.9995
+6,fast_epsilon_decay,Faster epsilon decay,epsilon_decay: 0.9995 to 0.999,0.1,0.99,1.0,0.05,0.999
+7,high_gamma,More patient (higher discount),gamma: 0.99 to 0.995,0.1,0.995,1.0,0.05,0.9995

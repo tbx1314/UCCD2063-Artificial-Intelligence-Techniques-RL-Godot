@@ -1,0 +1,8 @@
+episodes,mean_reward,reward_std,mean_steps,mean_apples,completion_rate,queue_position,name,label,seed,alpha,gamma,epsilon_start,epsilon_min,epsilon_decay
+50,0.5635354371261597,12.007309104676752,295.4,1.1,0.12,1,baseline,Baseline,123,0.1,0.99,1.0,0.05,0.9995
+50,9.063192769927987,19.121732542862237,689.4,1.46,0.46,2,low_alpha,Lower learning rate,123,0.03,0.99,1.0,0.05,0.9995
+50,8.41391774360657,17.72222793893974,407.38,1.32,0.42,3,high_alpha,Higher learning rate,123,0.3,0.99,1.0,0.05,0.9995
+50,7.334053918380765,21.071156120982376,536.86,1.38,0.4,4,high_exploration,Higher exploration floor,123,0.1,0.99,1.0,0.15,0.9995
+50,20.949409205245974,16.55085393401217,147.96,1.64,0.7,5,very_high_exploration,Much higher exploration floor,123,0.1,0.99,1.0,0.3,0.9995
+50,31.678245213470458,1.9449097099662211,90.62,2.0,1.0,6,fast_epsilon_decay,Faster epsilon decay,123,0.1,0.99,1.0,0.05,0.999
+50,6.292483158912668,21.136565593910994,711.22,1.4,0.42,7,high_gamma,More patient (higher discount),123,0.1,0.995,1.0,0.05,0.9995

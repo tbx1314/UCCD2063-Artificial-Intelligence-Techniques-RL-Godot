@@ -1,0 +1,2 @@
+queue_position,name,label,seed,port,timesteps,states_visited,final_epsilon,training_seconds,status,alpha,gamma,epsilon_start,epsilon_min,epsilon_decay
+5,very_high_exploration,Much higher exploration floor,123,9205,500000,707,0.678685861447617,1021.564873999916,completed,0.1,0.99,1.0,0.3,0.9995
