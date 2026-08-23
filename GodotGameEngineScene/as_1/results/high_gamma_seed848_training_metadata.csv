@@ -1,2 +1,2 @@
 name,label,seed,timesteps,training_seconds,learning_rate,n_steps,batch_size,n_epochs,gamma,gae_lambda,clip_range,ent_coef
-high_gamma,More patient (higher discount),848,200704,120.54483924998203,0.0003,1024,64,10,0.995,0.95,0.2,0.01
+high_gamma,More patient (higher discount),848,200704,192.37701774999732,0.0003,1024,64,10,0.995,0.95,0.2,0.01

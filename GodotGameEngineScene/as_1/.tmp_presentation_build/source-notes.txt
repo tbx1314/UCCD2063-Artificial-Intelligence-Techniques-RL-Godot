@@ -1,0 +1,6 @@
+Deck source scope
+
+- Assignment requirements: 1_FullTime-2026-June_Sept_UCCD2063_-_Question.pdf
+- Notebook source: agent/AS1_PPO_Training_and_Evaluation.ipynb
+- Generated figures and data: results/training_reward_comparison.png, results/baseline_position_heatmap.png, results/experiment_plan.csv, results/all_training_metadata.csv, results/all_experiment_summaries.csv, results/all_stochastic_experiment_summaries.csv, results/policy_comparison.csv, results/seed_matrix_summary.csv, results/seed_matrix_evaluation_results.csv
+- Project artwork only: assets/images/player/Run (32x32).png, assets/images/Collectibles/Apple.png, assets/images/Snail/Walk (38x24).png
