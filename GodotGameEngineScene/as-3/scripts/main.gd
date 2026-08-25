@@ -1,23 +1,20 @@
 extends Node2D
 
-
-# Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	_setup_level()
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta: float) -> void:
-#	pass
-	
-# Connect enemies
 func _setup_level() -> void:
-	var enemies = $LevelRoot.get_node_or_null("Enemies")
+	var level_root = get_node_or_null("LevelRoot")
+	if not level_root:
+		return
+
+	var enemies = level_root.get_node_or_null("Enemies")
 	if enemies:
 		for enemy in enemies.get_children():
-			enemy.player_died.connect(_on_player_died)
-	
-# Signal handlers
-func _on_player_died(body):
-	body.die()
-	#print("player die")
+			if enemy.has_signal("player_died"):
+				if not enemy.player_died.is_connected(_on_player_died):
+					enemy.player_died.connect(_on_player_died)
+
+# Signal handler kept lightweight so AIController2D handles the RL death/reset flow
+func _on_player_died(_body) -> void:
+	pass

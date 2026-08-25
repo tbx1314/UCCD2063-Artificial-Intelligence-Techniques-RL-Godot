@@ -76,7 +76,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_hfppt")
 }],
-"loop": true,
+"loop": 1,
 "name": &"running",
 "speed": 5.0
 }]
