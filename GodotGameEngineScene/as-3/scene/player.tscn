@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://breniuvt4oju2" path="res://assets/images/player/Run (32x32).png" id="4_1jxqw"]
 [ext_resource type="AudioStream" uid="uid://c7aqgfuy1stdf" path="res://assets/sounds/jump.wav" id="6_oh5ij"]
 [ext_resource type="AudioStream" uid="uid://bu77lfjkme1b7" path="res://assets/sounds/death.wav" id="7_hp4bs"]
+[ext_resource type="Script" uid="uid://dmrnlxhaubed7" path="res://scene/ai_controller_2d.gd" id="8_g2vtq"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dw050"]
 atlas = ExtResource("1_hqtel")
@@ -152,7 +153,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_bwjto")
 }],
-"loop": true,
+"loop": 1,
 "name": &"dying",
 "speed": 20.0
 }, {
@@ -190,7 +191,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_jm5j8")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle",
 "speed": 20.0
 }, {
@@ -198,7 +199,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("3_2hs0m")
 }],
-"loop": true,
+"loop": 1,
 "name": &"jumping",
 "speed": 20.0
 }, {
@@ -239,7 +240,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_khis8")
 }],
-"loop": true,
+"loop": 1,
 "name": &"running",
 "speed": 20.0
 }]
@@ -268,3 +269,7 @@ stream = ExtResource("6_oh5ij")
 
 [node name="DeathSound" type="AudioStreamPlayer2D" parent="." unique_id=327485373]
 stream = ExtResource("7_hp4bs")
+
+[node name="AIController2D" type="Node2D" parent="." unique_id=1905928423]
+script = ExtResource("8_g2vtq")
+metadata/_custom_type_script = "uid://xf4kkniarl74"
