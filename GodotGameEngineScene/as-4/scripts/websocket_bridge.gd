@@ -119,11 +119,11 @@ func _handle_reset() -> void:
 		"type": "reset_result",
 		"observation": observation,
 		"info": {
-    	"reason": "",
-    	"steps": 0,
-    	"apples_collected": 0,
-    	"player_x": environment.player.global_position.x,
-    	"player_y": environment.player.global_position.y,
+		"reason": "",
+		"steps": 0,
+		"apples_collected": 0,
+		"player_x": environment.player.global_position.x,
+		"player_y": environment.player.global_position.y,
 		}
 	})
 

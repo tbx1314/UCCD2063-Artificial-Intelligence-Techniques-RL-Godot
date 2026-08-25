@@ -1,351 +1,351 @@
 name,label,episode,reward,steps,reason,apples_collected,completed
-baseline,Baseline,1,-1.368840614318838,123,enemy,1,False
-baseline,Baseline,2,-1.01332144546509,66,enemy,1,False
-baseline,Baseline,3,-5.30474145889283,522,enemy,1,False
-baseline,Baseline,4,-0.9802232589721687,64,enemy,1,False
-baseline,Baseline,5,34.14551655578613,89,success,2,True
-baseline,Baseline,6,25.182722194671634,507,success,2,True
-baseline,Baseline,7,-1.388010612487788,71,enemy,1,False
-baseline,Baseline,8,-1.2383915405273456,93,enemy,1,False
-baseline,Baseline,9,-8.680865592956547,856,enemy,1,False
-baseline,Baseline,10,-1.1737066116332944,83,enemy,1,False
-baseline,Baseline,11,-1.0551551361083984,62,enemy,1,False
-baseline,Baseline,12,-1.1116267433166485,68,enemy,1,False
-baseline,Baseline,13,-0.9440169982910156,62,enemy,1,False
-baseline,Baseline,14,-1.0131348876953137,57,enemy,1,False
-baseline,Baseline,15,-1.0123138732910135,61,enemy,1,False
-baseline,Baseline,16,-0.9549098205566384,57,enemy,1,False
-baseline,Baseline,17,-1.4358310012817554,134,enemy,1,False
-baseline,Baseline,18,-1.0979311065673798,101,enemy,1,False
-baseline,Baseline,19,33.994546514511114,113,success,2,True
-baseline,Baseline,20,-13.183482391357412,1000,timeout,1,False
-baseline,Baseline,21,-8.706363082885737,862,enemy,1,False
-baseline,Baseline,22,-1.0944769592285155,62,enemy,1,False
-baseline,Baseline,23,-9.50889931106568,943,enemy,1,False
-baseline,Baseline,24,-10.01,1,enemy,0,False
-baseline,Baseline,25,-4.769678977966318,462,enemy,1,False
-baseline,Baseline,26,-5.05647425460817,498,enemy,1,False
-baseline,Baseline,27,34.10528381347656,93,success,2,True
-baseline,Baseline,28,-12.824566390991196,1000,timeout,1,False
-baseline,Baseline,29,-2.3259587936401447,223,enemy,1,False
-baseline,Baseline,30,-1.0623212280273453,66,enemy,1,False
-baseline,Baseline,31,-1.0882480087280264,82,enemy,1,False
-baseline,Baseline,32,-9.532448257446298,950,enemy,1,False
-baseline,Baseline,33,-6.215805229187023,612,enemy,1,False
-baseline,Baseline,34,-4.386660327911373,432,enemy,1,False
-baseline,Baseline,35,-1.0368972320556598,68,enemy,1,False
-baseline,Baseline,36,-6.25930520629882,613,enemy,1,False
-baseline,Baseline,37,-1.0220700035095227,61,enemy,1,False
-baseline,Baseline,38,-1.0751540832519542,64,enemy,1,False
-baseline,Baseline,39,-1.0621326141357432,67,enemy,1,False
-baseline,Baseline,40,-7.376364562988291,730,enemy,1,False
-baseline,Baseline,41,34.100925949096684,90,success,2,True
-baseline,Baseline,42,25.552679565429695,469,success,2,True
-baseline,Baseline,43,-1.1401103057861341,101,enemy,1,False
-baseline,Baseline,44,-1.016423812866206,64,enemy,1,False
-baseline,Baseline,45,-6.207137611389152,611,enemy,1,False
-baseline,Baseline,46,-0.9410009460449213,52,enemy,1,False
-baseline,Baseline,47,-1.054788925170893,60,enemy,1,False
-baseline,Baseline,48,-8.225781730651857,1000,timeout,1,False
-baseline,Baseline,49,-2.0070152282714915,191,enemy,1,False
-baseline,Baseline,50,-0.9423165588378879,54,enemy,1,False
-low_alpha,Lower learning rate,1,-8.189150054931632,1000,timeout,1,False
-low_alpha,Lower learning rate,2,31.96551690673828,310,success,2,True
-low_alpha,Lower learning rate,3,30.045048076629637,21,success,2,True
-low_alpha,Lower learning rate,4,-8.67719164276124,1000,timeout,1,False
-low_alpha,Lower learning rate,5,-8.191377235412586,1000,timeout,1,False
-low_alpha,Lower learning rate,6,32.54195697784424,254,success,2,True
-low_alpha,Lower learning rate,7,29.563971736907963,70,success,2,True
-low_alpha,Lower learning rate,8,-8.436973335266103,1000,timeout,1,False
-low_alpha,Lower learning rate,9,25.303513168334973,983,success,2,True
-low_alpha,Lower learning rate,10,29.764710262298582,50,success,2,True
-low_alpha,Lower learning rate,11,-8.436855888366683,1000,timeout,1,False
-low_alpha,Lower learning rate,12,-8.463678085327158,1000,timeout,1,False
-low_alpha,Lower learning rate,13,-8.179140151977553,1000,timeout,1,False
-low_alpha,Lower learning rate,14,28.470082782745376,665,success,2,True
-low_alpha,Lower learning rate,15,29.454710262298594,81,success,2,True
-low_alpha,Lower learning rate,16,33.5325024433136,139,success,2,True
-low_alpha,Lower learning rate,17,29.97250517272949,28,success,2,True
-low_alpha,Lower learning rate,18,-8.698255897521967,1000,timeout,1,False
-low_alpha,Lower learning rate,19,-8.230050010681113,1000,timeout,1,False
-low_alpha,Lower learning rate,20,-8.232446601867652,1000,timeout,1,False
-low_alpha,Lower learning rate,21,-8.201829101562486,1000,timeout,1,False
-low_alpha,Lower learning rate,22,-8.176499198913543,1000,timeout,1,False
-low_alpha,Lower learning rate,23,28.34765237426758,672,success,2,True
-low_alpha,Lower learning rate,24,29.932270664215086,32,success,2,True
-low_alpha,Lower learning rate,25,-8.70134056854249,1000,timeout,1,False
-low_alpha,Lower learning rate,26,-8.056676322936982,1000,timeout,1,False
-low_alpha,Lower learning rate,27,27.874226303100574,721,success,2,True
-low_alpha,Lower learning rate,28,31.765637901306143,330,success,2,True
-low_alpha,Lower learning rate,29,29.95047023010254,30,success,2,True
-low_alpha,Lower learning rate,30,-8.746113014221198,1000,timeout,1,False
-low_alpha,Lower learning rate,31,-8.21755253601072,1000,timeout,1,False
-low_alpha,Lower learning rate,32,-8.219276306152317,1000,timeout,1,False
-low_alpha,Lower learning rate,33,-8.237769348144516,1000,timeout,1,False
-low_alpha,Lower learning rate,34,-8.18058261108395,1000,timeout,1,False
-low_alpha,Lower learning rate,35,26.67453719902041,845,success,2,True
-low_alpha,Lower learning rate,36,29.599115013122564,68,success,2,True
-low_alpha,Lower learning rate,37,-8.697055053710956,1000,timeout,1,False
-low_alpha,Lower learning rate,38,-8.219256446838376,1000,timeout,1,False
-low_alpha,Lower learning rate,39,25.698799407959026,937,success,2,True
-low_alpha,Lower learning rate,40,29.85397173690796,41,success,2,True
-low_alpha,Lower learning rate,41,-8.697120719909684,1000,timeout,1,False
-low_alpha,Lower learning rate,42,-8.476306377410902,1000,timeout,1,False
-low_alpha,Lower learning rate,43,-8.244391372680658,1000,timeout,1,False
-low_alpha,Lower learning rate,44,-8.180050704956047,1000,timeout,1,False
-low_alpha,Lower learning rate,45,29.67007152175904,545,success,2,True
-low_alpha,Lower learning rate,46,29.94318628311157,31,success,2,True
-low_alpha,Lower learning rate,47,-8.697086601257334,1000,timeout,1,False
-low_alpha,Lower learning rate,48,-8.217386970519982,1000,timeout,1,False
-low_alpha,Lower learning rate,49,29.346123420715337,571,success,2,True
-low_alpha,Lower learning rate,50,29.790470809936526,46,success,2,True
-high_alpha,Higher learning rate,1,25.442158065795898,480,success,2,True
-high_alpha,Higher learning rate,2,24.88353738403322,993,success,2,True
-high_alpha,Higher learning rate,3,29.661855468749998,60,success,2,True
-high_alpha,Higher learning rate,4,-2.5830543136596598,231,enemy,1,False
-high_alpha,Higher learning rate,5,-2.957083827972416,289,enemy,1,False
-high_alpha,Higher learning rate,6,-10.01,1,enemy,0,False
-high_alpha,Higher learning rate,7,-2.4321843795776417,231,enemy,1,False
-high_alpha,Higher learning rate,8,-4.3005465393066284,415,enemy,1,False
-high_alpha,Higher learning rate,9,-7.849108570098878,778,enemy,1,False
-high_alpha,Higher learning rate,10,31.877728717803958,325,success,2,True
-high_alpha,Higher learning rate,11,28.34842984008789,189,success,2,True
-high_alpha,Higher learning rate,12,27.943247116088866,699,success,2,True
-high_alpha,Higher learning rate,13,25.080836166381836,517,success,2,True
-high_alpha,Higher learning rate,14,-3.9500833435058578,360,enemy,1,False
-high_alpha,Higher learning rate,15,29.435006771087643,566,success,2,True
-high_alpha,Higher learning rate,16,26.282116256713863,396,success,2,True
-high_alpha,Higher learning rate,17,-3.6519502754211377,357,enemy,1,False
-high_alpha,Higher learning rate,18,-3.04379022979737,293,enemy,1,False
-high_alpha,Higher learning rate,19,-10.01,1,enemy,0,False
-high_alpha,Higher learning rate,20,-2.94604132080077,291,enemy,1,False
-high_alpha,Higher learning rate,21,-3.6501707611083916,356,enemy,1,False
-high_alpha,Higher learning rate,22,-10.01,1,enemy,0,False
-high_alpha,Higher learning rate,23,32.34098812866212,277,success,2,True
-high_alpha,Higher learning rate,24,-12.982039001464834,1000,timeout,1,False
-high_alpha,Higher learning rate,25,-3.0480152168273866,298,enemy,1,False
-high_alpha,Higher learning rate,26,-12.627308559417713,1000,timeout,1,False
-high_alpha,Higher learning rate,27,-2.361906230926518,230,enemy,1,False
-high_alpha,Higher learning rate,28,32.94428945159912,211,success,2,True
-high_alpha,Higher learning rate,29,-12.997505676269531,1000,timeout,1,False
-high_alpha,Higher learning rate,30,30.5299027633667,459,success,2,True
-high_alpha,Higher learning rate,31,27.511911029815675,274,success,2,True
-high_alpha,Higher learning rate,32,31.22724668502806,389,success,2,True
-high_alpha,Higher learning rate,33,24.19185453033447,607,success,2,True
-high_alpha,Higher learning rate,34,-3.276678627014152,299,enemy,1,False
-high_alpha,Higher learning rate,35,-10.01,1,enemy,0,False
-high_alpha,Higher learning rate,36,-2.3160412254333433,228,enemy,1,False
-high_alpha,Higher learning rate,37,28.274981037139895,688,success,2,True
-high_alpha,Higher learning rate,38,23.872160224914552,637,success,2,True
-high_alpha,Higher learning rate,39,-8.467738735198967,840,enemy,1,False
-high_alpha,Higher learning rate,40,-3.6525196914672717,353,enemy,1,False
-high_alpha,Higher learning rate,41,29.937041515350337,520,success,2,True
-high_alpha,Higher learning rate,42,29.111229484558102,114,success,2,True
-high_alpha,Higher learning rate,43,30.610085762023928,444,success,2,True
-high_alpha,Higher learning rate,44,-7.447759796142574,236,enemy,1,False
-high_alpha,Higher learning rate,45,-12.62153835296629,1000,timeout,1,False
-high_alpha,Higher learning rate,46,-11.249136688232422,112,enemy,0,False
-high_alpha,Higher learning rate,47,-3.6196723251342826,358,enemy,1,False
-high_alpha,Higher learning rate,48,31.845006347656252,325,success,2,True
-high_alpha,Higher learning rate,49,-3.0891249771118225,294,enemy,1,False
-high_alpha,Higher learning rate,50,-3.4947269020080496,346,enemy,1,False
-high_exploration,Higher exploration floor,1,33.66677259826659,139,success,2,True
-high_exploration,Higher exploration floor,2,-12.997979858398356,1000,timeout,1,False
-high_exploration,Higher exploration floor,3,-1.3514335021972652,121,enemy,1,False
+baseline,Baseline,1,-4.170330558776851,386,enemy,1,False
+baseline,Baseline,2,33.60516146850586,146,success,2,True
+baseline,Baseline,3,27.692274765014645,256,success,2,True
+baseline,Baseline,4,33.8979508895874,91,success,2,True
+baseline,Baseline,5,27.09245119857788,316,success,2,True
+baseline,Baseline,6,-0.9545854949951149,62,enemy,1,False
+baseline,Baseline,7,-2.522434738159169,242,enemy,1,False
+baseline,Baseline,8,-8.343416595458947,822,enemy,1,False
+baseline,Baseline,9,-10.01,1,enemy,0,False
+baseline,Baseline,10,-6.695413932800285,660,enemy,1,False
+baseline,Baseline,11,-1.0467214050292952,73,enemy,1,False
+baseline,Baseline,12,-6.13087954711912,600,enemy,1,False
+baseline,Baseline,13,-5.5596711044311355,546,enemy,1,False
+baseline,Baseline,14,-1.0160948257446307,63,enemy,1,False
+baseline,Baseline,15,-1.0252531967163065,60,enemy,1,False
+baseline,Baseline,16,-3.100079780578584,300,enemy,1,False
+baseline,Baseline,17,33.545797706604006,148,success,2,True
+baseline,Baseline,18,-13.157477142333986,793,enemy,1,False
+baseline,Baseline,19,-1.0314143600463819,60,enemy,1,False
+baseline,Baseline,20,-8.223663749694794,1000,timeout,1,False
+baseline,Baseline,21,-1.4324393157959001,131,enemy,1,False
+baseline,Baseline,22,-2.947528457641596,285,enemy,1,False
+baseline,Baseline,23,-8.228970458984364,1000,timeout,1,False
+baseline,Baseline,24,-1.7534206695556485,163,enemy,1,False
+baseline,Baseline,25,-6.13999092864989,603,enemy,1,False
+baseline,Baseline,26,-10.01,1,enemy,0,False
+baseline,Baseline,27,-7.795674156188951,770,enemy,1,False
+baseline,Baseline,28,-9.558440963745122,946,enemy,1,False
+baseline,Baseline,29,-8.275385314941383,1000,timeout,1,False
+baseline,Baseline,30,-7.81843971252442,772,enemy,1,False
+baseline,Baseline,31,-1.0667717666625975,62,enemy,1,False
+baseline,Baseline,32,-1.019736740112302,66,enemy,1,False
+baseline,Baseline,33,-7.788437179565419,769,enemy,1,False
+baseline,Baseline,34,-3.149520973205549,305,enemy,1,False
+baseline,Baseline,35,-8.338440574645968,824,enemy,1,False
+baseline,Baseline,36,-3.538438301086413,344,enemy,1,False
+baseline,Baseline,37,-1.192605339050294,95,enemy,1,False
+baseline,Baseline,38,-1.397086776733392,105,enemy,1,False
+baseline,Baseline,39,-4.188439323425285,409,enemy,1,False
+baseline,Baseline,40,-5.486708732604963,538,enemy,1,False
+baseline,Baseline,41,33.596400524139405,148,success,2,True
+baseline,Baseline,42,24.322448177337645,593,success,2,True
+baseline,Baseline,43,-1.1350218658447293,96,enemy,1,False
+baseline,Baseline,44,-2.488179611206058,239,enemy,1,False
+baseline,Baseline,45,-0.9865648651123031,62,enemy,1,False
+baseline,Baseline,46,-1.1048768768310513,66,enemy,1,False
+baseline,Baseline,47,-8.343416397094742,822,enemy,1,False
+baseline,Baseline,48,-10.01,1,enemy,0,False
+baseline,Baseline,49,-8.288482986450182,1000,timeout,1,False
+baseline,Baseline,50,-7.1284353103637494,703,enemy,1,False
+low_alpha,Lower learning rate,1,-17.999288665771477,1000,timeout,0,False
+low_alpha,Lower learning rate,2,-18.122894775390638,1000,timeout,0,False
+low_alpha,Lower learning rate,3,-18.108042724609348,1000,timeout,0,False
+low_alpha,Lower learning rate,4,-17.998717529296897,1000,timeout,0,False
+low_alpha,Lower learning rate,5,-18.147059936523515,1000,timeout,0,False
+low_alpha,Lower learning rate,6,-17.998727233886747,1000,timeout,0,False
+low_alpha,Lower learning rate,7,-18.051228149414076,1000,timeout,0,False
+low_alpha,Lower learning rate,8,-18.107616851806643,1000,timeout,0,False
+low_alpha,Lower learning rate,9,-17.99929003906252,1000,timeout,0,False
+low_alpha,Lower learning rate,10,-18.133385925292988,1000,timeout,0,False
+low_alpha,Lower learning rate,11,-18.09306082153322,1000,timeout,0,False
+low_alpha,Lower learning rate,12,-17.998717346191356,1000,timeout,0,False
+low_alpha,Lower learning rate,13,-17.999290496826234,1000,timeout,0,False
+low_alpha,Lower learning rate,14,-17.99929116821291,1000,timeout,0,False
+low_alpha,Lower learning rate,15,-18.122894500732443,1000,timeout,0,False
+low_alpha,Lower learning rate,16,-17.998717346191405,1000,timeout,0,False
+low_alpha,Lower learning rate,17,-17.99871618652346,1000,timeout,0,False
+low_alpha,Lower learning rate,18,-17.99871746826178,1000,timeout,0,False
+low_alpha,Lower learning rate,19,-17.998716217040993,1000,timeout,0,False
+low_alpha,Lower learning rate,20,-17.999300628662102,1000,timeout,0,False
+low_alpha,Lower learning rate,21,-17.99871618652344,1000,timeout,0,False
+low_alpha,Lower learning rate,22,-17.999290588378898,1000,timeout,0,False
+low_alpha,Lower learning rate,23,-17.99929074096677,1000,timeout,0,False
+low_alpha,Lower learning rate,24,-17.99928863525391,1000,timeout,0,False
+low_alpha,Lower learning rate,25,-17.99872738647459,1000,timeout,0,False
+low_alpha,Lower learning rate,26,-17.999300933837866,1000,timeout,0,False
+low_alpha,Lower learning rate,27,-17.99930108642576,1000,timeout,0,False
+low_alpha,Lower learning rate,28,-17.99872732543946,1000,timeout,0,False
+low_alpha,Lower learning rate,29,-17.999290832519556,1000,timeout,0,False
+low_alpha,Lower learning rate,30,-18.13329656982423,1000,timeout,0,False
+low_alpha,Lower learning rate,31,-18.142542266845766,1000,timeout,0,False
+low_alpha,Lower learning rate,32,-18.07122808837891,1000,timeout,0,False
+low_alpha,Lower learning rate,33,-18.071227844238276,1000,timeout,0,False
+low_alpha,Lower learning rate,34,-18.02425677490239,1000,timeout,0,False
+low_alpha,Lower learning rate,35,-17.998727416992203,1000,timeout,0,False
+low_alpha,Lower learning rate,36,-17.998717437744126,1000,timeout,0,False
+low_alpha,Lower learning rate,37,-17.99872732543948,1000,timeout,0,False
+low_alpha,Lower learning rate,38,-18.14206118774422,1000,timeout,0,False
+low_alpha,Lower learning rate,39,-17.999291320800754,1000,timeout,0,False
+low_alpha,Lower learning rate,40,-18.12289334106441,1000,timeout,0,False
+low_alpha,Lower learning rate,41,-18.147059844970677,1000,timeout,0,False
+low_alpha,Lower learning rate,42,-18.147061218261786,1000,timeout,0,False
+low_alpha,Lower learning rate,43,-17.999300750732473,1000,timeout,0,False
+low_alpha,Lower learning rate,44,-17.999291137695256,1000,timeout,0,False
+low_alpha,Lower learning rate,45,-18.09261694335941,1000,timeout,0,False
+low_alpha,Lower learning rate,46,-17.999299255371113,1000,timeout,0,False
+low_alpha,Lower learning rate,47,-17.998717437744162,1000,timeout,0,False
+low_alpha,Lower learning rate,48,-17.99930044555665,1000,timeout,0,False
+low_alpha,Lower learning rate,49,-18.093155975341794,1000,timeout,0,False
+low_alpha,Lower learning rate,50,-17.999289428710952,1000,timeout,0,False
+high_alpha,Higher learning rate,1,-8.336389503478983,1000,timeout,1,False
+high_alpha,Higher learning rate,2,-8.327826103210429,1000,timeout,1,False
+high_alpha,Higher learning rate,3,-8.303895462036115,1000,timeout,1,False
+high_alpha,Higher learning rate,4,-8.310802330017083,1000,timeout,1,False
+high_alpha,Higher learning rate,5,-8.334378349304183,1000,timeout,1,False
+high_alpha,Higher learning rate,6,-8.30403119659422,1000,timeout,1,False
+high_alpha,Higher learning rate,7,-8.336437759399393,1000,timeout,1,False
+high_alpha,Higher learning rate,8,-8.347666824340818,1000,timeout,1,False
+high_alpha,Higher learning rate,9,-8.36044480895994,1000,timeout,1,False
+high_alpha,Higher learning rate,10,-8.336361381530736,1000,timeout,1,False
+high_alpha,Higher learning rate,11,-8.304884712219232,1000,timeout,1,False
+high_alpha,Higher learning rate,12,-8.336356643676739,1000,timeout,1,False
+high_alpha,Higher learning rate,13,-8.288261203765867,1000,timeout,1,False
+high_alpha,Higher learning rate,14,-8.319939498901356,1000,timeout,1,False
+high_alpha,Higher learning rate,15,-8.33645594787596,1000,timeout,1,False
+high_alpha,Higher learning rate,16,-8.30391887664793,1000,timeout,1,False
+high_alpha,Higher learning rate,17,-8.33633793640135,1000,timeout,1,False
+high_alpha,Higher learning rate,18,-8.281958694457995,1000,timeout,1,False
+high_alpha,Higher learning rate,19,-8.330783432006806,1000,timeout,1,False
+high_alpha,Higher learning rate,20,-8.326005813598636,1000,timeout,1,False
+high_alpha,Higher learning rate,21,-8.321002189636205,1000,timeout,1,False
+high_alpha,Higher learning rate,22,-8.295196315765372,1000,timeout,1,False
+high_alpha,Higher learning rate,23,-8.33918141937252,1000,timeout,1,False
+high_alpha,Higher learning rate,24,-8.336250236511228,1000,timeout,1,False
+high_alpha,Higher learning rate,25,-8.32004637145995,1000,timeout,1,False
+high_alpha,Higher learning rate,26,-8.270741477966297,1000,timeout,1,False
+high_alpha,Higher learning rate,27,-8.303942268371562,1000,timeout,1,False
+high_alpha,Higher learning rate,28,-8.336352027893048,1000,timeout,1,False
+high_alpha,Higher learning rate,29,-8.318052452087377,1000,timeout,1,False
+high_alpha,Higher learning rate,30,-8.326107360839842,1000,timeout,1,False
+high_alpha,Higher learning rate,31,-8.337563720703114,1000,timeout,1,False
+high_alpha,Higher learning rate,32,-8.276602310180635,1000,timeout,1,False
+high_alpha,Higher learning rate,33,-8.345091812133777,1000,timeout,1,False
+high_alpha,Higher learning rate,34,-8.336266525268538,1000,timeout,1,False
+high_alpha,Higher learning rate,35,-8.336429031372068,1000,timeout,1,False
+high_alpha,Higher learning rate,36,-8.32100164794919,1000,timeout,1,False
+high_alpha,Higher learning rate,37,-8.339490451812718,1000,timeout,1,False
+high_alpha,Higher learning rate,38,-8.303890281677237,1000,timeout,1,False
+high_alpha,Higher learning rate,39,-8.304064285278303,1000,timeout,1,False
+high_alpha,Higher learning rate,40,-8.320085319519022,1000,timeout,1,False
+high_alpha,Higher learning rate,41,-8.352454765319798,1000,timeout,1,False
+high_alpha,Higher learning rate,42,-8.357775627136224,1000,timeout,1,False
+high_alpha,Higher learning rate,43,-8.303863533019996,1000,timeout,1,False
+high_alpha,Higher learning rate,44,-8.302805183410632,1000,timeout,1,False
+high_alpha,Higher learning rate,45,-8.350202407836893,1000,timeout,1,False
+high_alpha,Higher learning rate,46,-8.320687858581508,1000,timeout,1,False
+high_alpha,Higher learning rate,47,-8.309276596069331,1000,timeout,1,False
+high_alpha,Higher learning rate,48,-8.321646156311031,1000,timeout,1,False
+high_alpha,Higher learning rate,49,-8.319970458984368,1000,timeout,1,False
+high_alpha,Higher learning rate,50,-8.347054321289054,1000,timeout,1,False
+high_exploration,Higher exploration floor,1,-2.9964492721557594,289,enemy,1,False
+high_exploration,Higher exploration floor,2,-2.286650596618652,216,enemy,1,False
+high_exploration,Higher exploration floor,3,-8.127099006652806,1000,timeout,1,False
 high_exploration,Higher exploration floor,4,-10.01,1,enemy,0,False
-high_exploration,Higher exploration floor,5,-1.8546911277771123,178,enemy,1,False
-high_exploration,Higher exploration floor,6,-1.2741856384277312,117,enemy,1,False
-high_exploration,Higher exploration floor,7,-2.4702872314453073,237,enemy,1,False
-high_exploration,Higher exploration floor,8,27.872389619827274,725,success,2,True
-high_exploration,Higher exploration floor,9,-13.14738168334955,1000,timeout,1,False
-high_exploration,Higher exploration floor,10,33.426095218658446,168,success,2,True
-high_exploration,Higher exploration floor,11,-13.003468749999922,1000,timeout,1,False
-high_exploration,Higher exploration floor,12,32.93732788848877,213,success,2,True
-high_exploration,Higher exploration floor,13,-13.007205871581958,1000,timeout,1,False
-high_exploration,Higher exploration floor,14,-1.350370880126956,121,enemy,1,False
-high_exploration,Higher exploration floor,15,33.21732628631592,185,success,2,True
-high_exploration,Higher exploration floor,16,-12.997979522704995,1000,timeout,1,False
-high_exploration,Higher exploration floor,17,-1.9049731826782228,180,enemy,1,False
-high_exploration,Higher exploration floor,18,32.611523826599125,249,success,2,True
-high_exploration,Higher exploration floor,19,-12.998537231445246,1000,timeout,1,False
-high_exploration,Higher exploration floor,20,32.558389036178596,257,success,2,True
-high_exploration,Higher exploration floor,21,-13.140738494872956,1000,timeout,1,False
-high_exploration,Higher exploration floor,22,30.76239282608032,436,success,2,True
-high_exploration,Higher exploration floor,23,-12.997404602050706,1000,timeout,1,False
-high_exploration,Higher exploration floor,24,30.999798507690432,407,success,2,True
-high_exploration,Higher exploration floor,25,-13.108092224121041,1000,timeout,1,False
-high_exploration,Higher exploration floor,26,-1.8900265350341812,178,enemy,1,False
-high_exploration,Higher exploration floor,27,-1.3200014343261834,121,enemy,1,False
-high_exploration,Higher exploration floor,28,-8.071713211059556,1000,timeout,1,False
-high_exploration,Higher exploration floor,29,33.813608085632325,123,success,2,True
-high_exploration,Higher exploration floor,30,-12.997976989746022,1000,timeout,1,False
-high_exploration,Higher exploration floor,31,31.628702335357655,348,success,2,True
-high_exploration,Higher exploration floor,32,-13.000378417968662,1000,timeout,1,False
-high_exploration,Higher exploration floor,33,33.072401559829714,205,success,2,True
-high_exploration,Higher exploration floor,34,-13.070371520996023,1000,timeout,1,False
-high_exploration,Higher exploration floor,35,32.49045533752442,263,success,2,True
-high_exploration,Higher exploration floor,36,-12.99853753662103,1000,timeout,1,False
-high_exploration,Higher exploration floor,37,-1.9111493759155227,178,enemy,1,False
-high_exploration,Higher exploration floor,38,31.350077720642084,370,success,2,True
-high_exploration,Higher exploration floor,39,-12.997968566894464,1000,timeout,1,False
-high_exploration,Higher exploration floor,40,33.00226008987428,212,success,2,True
-high_exploration,Higher exploration floor,41,-12.997978240966724,1000,timeout,1,False
-high_exploration,Higher exploration floor,42,32.666034046173095,244,success,2,True
-high_exploration,Higher exploration floor,43,-13.149739562988202,1000,timeout,1,False
-high_exploration,Higher exploration floor,44,33.08683627510071,204,success,2,True
-high_exploration,Higher exploration floor,45,-12.997240234374932,1000,timeout,1,False
-high_exploration,Higher exploration floor,46,33.24627027893066,189,success,2,True
-high_exploration,Higher exploration floor,47,-12.999820068359302,1000,timeout,1,False
-high_exploration,Higher exploration floor,48,32.98430191421509,211,success,2,True
-high_exploration,Higher exploration floor,49,-13.147379547119062,1000,timeout,1,False
-high_exploration,Higher exploration floor,50,32.474743511199954,263,success,2,True
-very_high_exploration,Much higher exploration floor,1,34.02742429542542,110,success,2,True
-very_high_exploration,Much higher exploration floor,2,33.21678157043456,181,success,2,True
-very_high_exploration,Much higher exploration floor,3,29.921911613464353,33,success,2,True
-very_high_exploration,Much higher exploration floor,4,-1.2221915512084927,56,enemy,1,False
-very_high_exploration,Much higher exploration floor,5,32.909802947998045,219,success,2,True
-very_high_exploration,Much higher exploration floor,6,29.825029632568352,44,success,2,True
-very_high_exploration,Much higher exploration floor,7,32.71223211288452,215,success,2,True
-very_high_exploration,Much higher exploration floor,8,28.94993457031248,130,success,2,True
-very_high_exploration,Much higher exploration floor,9,-1.8063627014160062,118,enemy,1,False
-very_high_exploration,Much higher exploration floor,10,33.23252779388427,179,success,2,True
-very_high_exploration,Much higher exploration floor,11,28.841911502838126,141,success,2,True
-very_high_exploration,Much higher exploration floor,12,32.77230056762695,206,success,2,True
-very_high_exploration,Much higher exploration floor,13,28.87123049163818,138,success,2,True
-very_high_exploration,Much higher exploration floor,14,-3.0670655212402176,241,enemy,1,False
-very_high_exploration,Much higher exploration floor,15,33.28299464035033,183,success,2,True
-very_high_exploration,Much higher exploration floor,16,29.54249854278565,71,success,2,True
-very_high_exploration,Much higher exploration floor,17,-1.7777807312011689,116,enemy,1,False
-very_high_exploration,Much higher exploration floor,18,33.29015495300292,179,success,2,True
-very_high_exploration,Much higher exploration floor,19,29.556324729919442,71,success,2,True
-very_high_exploration,Much higher exploration floor,20,-1.946995269775389,118,enemy,1,False
-very_high_exploration,Much higher exploration floor,21,31.59212191390992,349,success,2,True
-very_high_exploration,Much higher exploration floor,22,33.595799945831295,147,success,2,True
-very_high_exploration,Much higher exploration floor,23,29.061911613464357,119,success,2,True
-very_high_exploration,Much higher exploration floor,24,-2.4470570373535097,179,enemy,1,False
-very_high_exploration,Much higher exploration floor,25,-1.6629609374999959,123,enemy,1,False
-very_high_exploration,Much higher exploration floor,26,-11.341271606445314,123,enemy,0,False
-very_high_exploration,Much higher exploration floor,27,-2.312807594299306,185,enemy,1,False
-very_high_exploration,Much higher exploration floor,28,33.99382432556153,109,success,2,True
-very_high_exploration,Much higher exploration floor,29,31.195822887420647,387,success,2,True
-very_high_exploration,Much higher exploration floor,30,29.211911613464338,104,success,2,True
-very_high_exploration,Much higher exploration floor,31,33.34281134033203,156,success,2,True
-very_high_exploration,Much higher exploration floor,32,29.131911613464354,112,success,2,True
-very_high_exploration,Much higher exploration floor,33,33.79053164291382,110,success,2,True
-very_high_exploration,Much higher exploration floor,34,33.57210725975037,151,success,2,True
-very_high_exploration,Much higher exploration floor,35,29.10251226043701,115,success,2,True
-very_high_exploration,Much higher exploration floor,36,-1.3015540771484382,59,enemy,1,False
-very_high_exploration,Much higher exploration floor,37,33.44464472961427,166,success,2,True
-very_high_exploration,Much higher exploration floor,38,27.283186141967793,297,success,2,True
-very_high_exploration,Much higher exploration floor,39,-1.2435527801513597,56,enemy,1,False
-very_high_exploration,Much higher exploration floor,40,-10.643578521728516,55,enemy,0,False
-very_high_exploration,Much higher exploration floor,41,33.605089550018306,147,success,2,True
-very_high_exploration,Much higher exploration floor,42,29.66123041534424,59,success,2,True
-very_high_exploration,Much higher exploration floor,43,-2.4470614776611237,179,enemy,1,False
-very_high_exploration,Much higher exploration floor,44,33.02013056373596,207,success,2,True
-very_high_exploration,Much higher exploration floor,45,32.82243193054199,230,success,2,True
-very_high_exploration,Much higher exploration floor,46,32.80918947982788,226,success,2,True
-very_high_exploration,Much higher exploration floor,47,29.583186168670647,67,success,2,True
-very_high_exploration,Much higher exploration floor,48,-1.8716898345947097,119,enemy,1,False
-very_high_exploration,Much higher exploration floor,49,-11.183129364013674,102,enemy,0,False
-very_high_exploration,Much higher exploration floor,50,32.972103906631475,211,success,2,True
-fast_epsilon_decay,Faster epsilon decay,1,31.622417997360213,351,success,2,True
-fast_epsilon_decay,Faster epsilon decay,2,29.632498901367192,62,success,2,True
-fast_epsilon_decay,Faster epsilon decay,3,33.83371966552734,108,success,2,True
-fast_epsilon_decay,Faster epsilon decay,4,29.952511924743654,30,success,2,True
-fast_epsilon_decay,Faster epsilon decay,5,33.67633868408203,119,success,2,True
-fast_epsilon_decay,Faster epsilon decay,6,29.99120935058594,26,success,2,True
-fast_epsilon_decay,Faster epsilon decay,7,33.291704078674314,157,success,2,True
-fast_epsilon_decay,Faster epsilon decay,8,29.89632444000244,37,success,2,True
-fast_epsilon_decay,Faster epsilon decay,9,33.71513259124756,119,success,2,True
-fast_epsilon_decay,Faster epsilon decay,10,29.821209350585942,43,success,2,True
-fast_epsilon_decay,Faster epsilon decay,11,33.408813636779776,152,success,2,True
-fast_epsilon_decay,Faster epsilon decay,12,29.762512260437013,49,success,2,True
-fast_epsilon_decay,Faster epsilon decay,13,33.80069953346253,116,success,2,True
-fast_epsilon_decay,Faster epsilon decay,14,29.971209350585937,28,success,2,True
-fast_epsilon_decay,Faster epsilon decay,15,33.89743232345582,102,success,2,True
-fast_epsilon_decay,Faster epsilon decay,16,29.86250519561768,39,success,2,True
-fast_epsilon_decay,Faster epsilon decay,17,33.87079363250732,99,success,2,True
-fast_epsilon_decay,Faster epsilon decay,18,29.75120957183838,50,success,2,True
-fast_epsilon_decay,Faster epsilon decay,19,33.8407763671875,103,success,2,True
-fast_epsilon_decay,Faster epsilon decay,20,28.626324432373067,164,success,2,True
-fast_epsilon_decay,Faster epsilon decay,21,33.70078439712524,119,success,2,True
-fast_epsilon_decay,Faster epsilon decay,22,29.96120935058594,29,success,2,True
-fast_epsilon_decay,Faster epsilon decay,23,33.90908126068115,100,success,2,True
-fast_epsilon_decay,Faster epsilon decay,24,29.921209457397463,33,success,2,True
-fast_epsilon_decay,Faster epsilon decay,25,33.90908126068115,100,success,2,True
-fast_epsilon_decay,Faster epsilon decay,26,29.96120935058594,29,success,2,True
-fast_epsilon_decay,Faster epsilon decay,27,33.91908126068114,99,success,2,True
-fast_epsilon_decay,Faster epsilon decay,28,29.972511924743653,28,success,2,True
-fast_epsilon_decay,Faster epsilon decay,29,33.38568601608277,153,success,2,True
-fast_epsilon_decay,Faster epsilon decay,30,29.85632457733154,41,success,2,True
-fast_epsilon_decay,Faster epsilon decay,31,33.8704930267334,103,success,2,True
-fast_epsilon_decay,Faster epsilon decay,32,29.751209350585942,50,success,2,True
-fast_epsilon_decay,Faster epsilon decay,33,33.9371399269104,101,success,2,True
-fast_epsilon_decay,Faster epsilon decay,34,29.872505195617677,38,success,2,True
-fast_epsilon_decay,Faster epsilon decay,35,33.82588822937011,112,success,2,True
-fast_epsilon_decay,Faster epsilon decay,36,29.92120935058594,33,success,2,True
-fast_epsilon_decay,Faster epsilon decay,37,33.93908126068116,97,success,2,True
-fast_epsilon_decay,Faster epsilon decay,38,29.991209350585937,26,success,2,True
-fast_epsilon_decay,Faster epsilon decay,39,33.641705657958994,122,success,2,True
-fast_epsilon_decay,Faster epsilon decay,40,29.681209571838384,57,success,2,True
-fast_epsilon_decay,Faster epsilon decay,41,33.829059135437014,108,success,2,True
-fast_epsilon_decay,Faster epsilon decay,42,29.955232238769533,31,success,2,True
-fast_epsilon_decay,Faster epsilon decay,43,32.50371592330932,241,success,2,True
-fast_epsilon_decay,Faster epsilon decay,44,29.951209350585938,30,success,2,True
-fast_epsilon_decay,Faster epsilon decay,45,33.92908126068115,98,success,2,True
-fast_epsilon_decay,Faster epsilon decay,46,29.872872875213623,39,success,2,True
-fast_epsilon_decay,Faster epsilon decay,47,31.29512763214111,361,success,2,True
-fast_epsilon_decay,Faster epsilon decay,48,29.671209457397467,58,success,2,True
-fast_epsilon_decay,Faster epsilon decay,49,33.75908126068115,115,success,2,True
-fast_epsilon_decay,Faster epsilon decay,50,29.992498474121096,26,success,2,True
-high_gamma,More patient (higher discount),1,33.11723382759095,201,success,2,True
-high_gamma,More patient (higher discount),2,-13.00356542968748,1000,timeout,1,False
-high_gamma,More patient (higher discount),3,33.9074048423767,122,success,2,True
-high_gamma,More patient (higher discount),4,-13.01333935546873,1000,timeout,1,False
-high_gamma,More patient (higher discount),5,27.10502974128725,802,success,2,True
-high_gamma,More patient (higher discount),6,-13.007843658447278,1000,timeout,1,False
-high_gamma,More patient (higher discount),7,29.562252906799344,556,success,2,True
-high_gamma,More patient (higher discount),8,-13.000452362060532,1000,timeout,1,False
-high_gamma,More patient (higher discount),9,26.0914479465485,905,success,2,True
-high_gamma,More patient (higher discount),10,-13.032199493408196,1000,timeout,1,False
-high_gamma,More patient (higher discount),11,-8.162512886047343,1000,timeout,1,False
-high_gamma,More patient (higher discount),12,31.890800636291534,321,success,2,True
-high_gamma,More patient (higher discount),13,-13.096165527343745,1000,timeout,1,False
-high_gamma,More patient (higher discount),14,33.695029741287236,143,success,2,True
-high_gamma,More patient (higher discount),15,-13.000452270507786,1000,timeout,1,False
-high_gamma,More patient (higher discount),16,31.985062444686907,314,success,2,True
-high_gamma,More patient (higher discount),17,-13.013339355468759,1000,timeout,1,False
-high_gamma,More patient (higher discount),18,32.969587005615246,210,success,2,True
-high_gamma,More patient (higher discount),19,-13.000430023193356,1000,timeout,1,False
-high_gamma,More patient (higher discount),20,32.53327263832092,260,success,2,True
-high_gamma,More patient (higher discount),21,-13.003566833496103,1000,timeout,1,False
-high_gamma,More patient (higher discount),22,31.30537898254395,381,success,2,True
-high_gamma,More patient (higher discount),23,-13.15202819824221,1000,timeout,1,False
-high_gamma,More patient (higher discount),24,-8.197490043640144,1000,timeout,1,False
-high_gamma,More patient (higher discount),25,28.305029548645017,682,success,2,True
-high_gamma,More patient (higher discount),26,-13.05528344726563,1000,timeout,1,False
-high_gamma,More patient (higher discount),27,26.495007303237955,863,success,2,True
-high_gamma,More patient (higher discount),28,-13.126168426513683,1000,timeout,1,False
-high_gamma,More patient (higher discount),29,-3.7469356842040726,361,enemy,1,False
-high_gamma,More patient (higher discount),30,-6.395151634216312,599,enemy,1,False
-high_gamma,More patient (higher discount),31,-2.5111448211669876,238,enemy,1,False
+high_exploration,Higher exploration floor,5,-6.63698168945311,654,enemy,1,False
+high_exploration,Higher exploration floor,6,-5.346390594482413,524,enemy,1,False
+high_exploration,Higher exploration floor,7,-8.237010238647455,1000,timeout,1,False
+high_exploration,Higher exploration floor,8,-4.204653450012193,409,enemy,1,False
+high_exploration,Higher exploration floor,9,-4.225947402954101,411,enemy,1,False
+high_exploration,Higher exploration floor,10,-3.0661152648925762,297,enemy,1,False
+high_exploration,Higher exploration floor,11,-4.316001899719237,422,enemy,1,False
+high_exploration,Higher exploration floor,12,-4.93533493041993,483,enemy,1,False
+high_exploration,Higher exploration floor,13,-2.4167344970703066,235,enemy,1,False
+high_exploration,Higher exploration floor,14,-4.100499259948724,398,enemy,1,False
+high_exploration,Higher exploration floor,15,-6.609381782531712,649,enemy,1,False
+high_exploration,Higher exploration floor,16,-5.0861194686889535,499,enemy,1,False
+high_exploration,Higher exploration floor,17,-3.1070966262817326,301,enemy,1,False
+high_exploration,Higher exploration floor,18,-4.826111366271977,473,enemy,1,False
+high_exploration,Higher exploration floor,19,-9.016245803832994,891,enemy,1,False
+high_exploration,Higher exploration floor,20,-8.31302426147461,816,enemy,1,False
+high_exploration,Higher exploration floor,21,-7.773959999084462,761,enemy,1,False
+high_exploration,Higher exploration floor,22,-6.511006851196295,638,enemy,1,False
+high_exploration,Higher exploration floor,23,-10.693577880859376,60,enemy,0,False
+high_exploration,Higher exploration floor,24,-8.194356330871605,1000,timeout,1,False
+high_exploration,Higher exploration floor,25,-10.706107727050782,63,enemy,0,False
+high_exploration,Higher exploration floor,26,-3.7961282958984333,370,enemy,1,False
+high_exploration,Higher exploration floor,27,-6.740281089782709,663,enemy,1,False
+high_exploration,Higher exploration floor,28,-10.01,1,enemy,0,False
+high_exploration,Higher exploration floor,29,-3.598023887634282,350,enemy,1,False
+high_exploration,Higher exploration floor,30,-8.946536437988254,882,enemy,1,False
+high_exploration,Higher exploration floor,31,-8.230247261047337,1000,timeout,1,False
+high_exploration,Higher exploration floor,32,-3.127102470397962,303,enemy,1,False
+high_exploration,Higher exploration floor,33,-5.423327018737781,532,enemy,1,False
+high_exploration,Higher exploration floor,34,-4.853062416076658,476,enemy,1,False
+high_exploration,Higher exploration floor,35,-2.3794067611694274,226,enemy,1,False
+high_exploration,Higher exploration floor,36,-5.436124137878432,534,enemy,1,False
+high_exploration,Higher exploration floor,37,-4.7967750930785975,474,enemy,1,False
+high_exploration,Higher exploration floor,38,-8.264863624572738,1000,timeout,1,False
+high_exploration,Higher exploration floor,39,-6.025889381408685,593,enemy,1,False
+high_exploration,Higher exploration floor,40,-10.60228240966797,52,enemy,0,False
+high_exploration,Higher exploration floor,41,-10.01,1,enemy,0,False
+high_exploration,Higher exploration floor,42,-4.858185012817368,476,enemy,1,False
+high_exploration,Higher exploration floor,43,-4.898429664611787,480,enemy,1,False
+high_exploration,Higher exploration floor,44,-2.5577096939086754,246,enemy,1,False
+high_exploration,Higher exploration floor,45,-4.151796035766605,409,enemy,1,False
+high_exploration,Higher exploration floor,46,-4.336121513366692,424,enemy,1,False
+high_exploration,Higher exploration floor,47,-6.450994407653791,632,enemy,1,False
+high_exploration,Higher exploration floor,48,-3.77996782684324,368,enemy,1,False
+high_exploration,Higher exploration floor,49,-6.649540077209478,655,enemy,1,False
+high_exploration,Higher exploration floor,50,-12.677086288452154,1000,timeout,1,False
+very_high_exploration,Much higher exploration floor,1,-5.428010940551748,533,enemy,1,False
+very_high_exploration,Much higher exploration floor,2,-10.697223266601563,55,enemy,0,False
+very_high_exploration,Much higher exploration floor,3,-4.956710895538302,485,enemy,1,False
+very_high_exploration,Much higher exploration floor,4,-9.185827354431156,909,enemy,1,False
+very_high_exploration,Much higher exploration floor,5,-3.725889694213854,363,enemy,1,False
+very_high_exploration,Much higher exploration floor,6,-3.393657508850101,326,enemy,1,False
+very_high_exploration,Much higher exploration floor,7,-3.064341804504399,296,enemy,1,False
+very_high_exploration,Much higher exploration floor,8,-5.422369052886968,531,enemy,1,False
+very_high_exploration,Much higher exploration floor,9,-6.006426170349136,590,enemy,1,False
+very_high_exploration,Much higher exploration floor,10,-5.822468795776349,570,enemy,1,False
+very_high_exploration,Much higher exploration floor,11,-8.226683723449696,1000,timeout,1,False
+very_high_exploration,Much higher exploration floor,12,-8.213214813232405,1000,timeout,1,False
+very_high_exploration,Much higher exploration floor,13,-2.2028331832885852,209,enemy,1,False
+very_high_exploration,Much higher exploration floor,14,-6.491388679504393,641,enemy,1,False
+very_high_exploration,Much higher exploration floor,15,-1.8264852218627876,172,enemy,1,False
+very_high_exploration,Much higher exploration floor,16,-2.372572219848628,225,enemy,1,False
+very_high_exploration,Much higher exploration floor,17,-3.583702011108395,348,enemy,1,False
+very_high_exploration,Much higher exploration floor,18,-7.158423072814941,706,enemy,1,False
+very_high_exploration,Much higher exploration floor,19,-4.831491432189931,473,enemy,1,False
+very_high_exploration,Much higher exploration floor,20,-10.629160827636719,50,enemy,0,False
+very_high_exploration,Much higher exploration floor,21,-8.366719993591296,825,enemy,1,False
+very_high_exploration,Much higher exploration floor,22,-7.872774078369121,777,enemy,1,False
+very_high_exploration,Much higher exploration floor,23,-3.191347427368174,311,enemy,1,False
+very_high_exploration,Much higher exploration floor,24,-10.849160491943358,72,enemy,0,False
+very_high_exploration,Much higher exploration floor,25,-6.78005741119388,668,enemy,1,False
+very_high_exploration,Much higher exploration floor,26,-10.70610678100586,63,enemy,0,False
+very_high_exploration,Much higher exploration floor,27,-5.676119514465331,558,enemy,1,False
+very_high_exploration,Much higher exploration floor,28,-5.438190238952646,534,enemy,1,False
+very_high_exploration,Much higher exploration floor,29,-8.257517997741703,1000,timeout,1,False
+very_high_exploration,Much higher exploration floor,30,-2.812825126647941,270,enemy,1,False
+very_high_exploration,Much higher exploration floor,31,-1.8704277343749993,177,enemy,1,False
+very_high_exploration,Much higher exploration floor,32,-8.053515937805162,1000,timeout,1,False
+very_high_exploration,Much higher exploration floor,33,-3.52464929962158,349,enemy,1,False
+very_high_exploration,Much higher exploration floor,34,-10.678890716552734,62,enemy,0,False
+very_high_exploration,Much higher exploration floor,35,-8.223831138610844,1000,timeout,1,False
+very_high_exploration,Much higher exploration floor,36,-4.720454612731921,460,enemy,1,False
+very_high_exploration,Much higher exploration floor,37,-6.718314430236832,663,enemy,1,False
+very_high_exploration,Much higher exploration floor,38,-8.190692737579349,1000,timeout,1,False
+very_high_exploration,Much higher exploration floor,39,-1.911579948425283,181,enemy,1,False
+very_high_exploration,Much higher exploration floor,40,-4.486125282287592,439,enemy,1,False
+very_high_exploration,Much higher exploration floor,41,-5.49600223541259,540,enemy,1,False
+very_high_exploration,Much higher exploration floor,42,-4.218553955078125,412,enemy,1,False
+very_high_exploration,Much higher exploration floor,43,-8.190918678283676,1000,timeout,1,False
+very_high_exploration,Much higher exploration floor,44,-5.926126014709467,583,enemy,1,False
+very_high_exploration,Much higher exploration floor,45,-8.204781089782712,1000,timeout,1,False
+very_high_exploration,Much higher exploration floor,46,-8.215124397277844,1000,timeout,1,False
+very_high_exploration,Much higher exploration floor,47,-2.992670196533185,288,enemy,1,False
+very_high_exploration,Much higher exploration floor,48,-2.411502136230462,231,enemy,1,False
+very_high_exploration,Much higher exploration floor,49,-2.5369794311523384,242,enemy,1,False
+very_high_exploration,Much higher exploration floor,50,-8.201543624877921,1000,timeout,1,False
+fast_epsilon_decay,Faster epsilon decay,1,-4.235676773071282,414,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,2,-1.9701755676269475,187,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,3,-1.9861280593872088,171,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,4,-1.3412861747741616,125,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,5,-3.5654113311767572,347,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,6,-2.9791570892333965,289,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,7,-4.757409744262698,467,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,8,-1.543310825347902,120,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,9,-8.620680389404264,827,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,10,-3.4965574951171865,340,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,11,-1.8225237693786625,174,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,12,-1.156713218688962,80,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,13,-10.01,1,enemy,0,False
+fast_epsilon_decay,Faster epsilon decay,14,-5.286174018859872,524,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,15,-2.1150601882934588,180,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,16,-3.0847830352783197,300,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,17,-3.07095961761474,302,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,18,-1.7519799041748048,165,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,19,-2.1385750236511214,179,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,20,-3.7237678527831957,371,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,21,-2.3243625831604007,202,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,22,-2.1390552177429196,181,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,23,-2.230179252624511,186,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,24,-2.6442844314575193,226,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,25,-1.0652937011718748,72,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,26,-2.9295578613281252,255,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,27,-0.889994369506832,53,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,28,-3.8804676055908223,354,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,29,-2.5489005012512234,246,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,30,-2.2568405380249024,195,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,31,-2.002155128479002,168,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,32,-4.790072898864746,458,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,33,-1.0551605148315417,74,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,34,-7.741322647094707,766,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,35,-1.4244656944274858,134,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,36,-1.2691015701293953,104,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,37,-1.6971822052001926,161,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,38,-1.2906041755676245,123,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,39,-1.7215421295165996,142,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,40,-3.465803794860835,314,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,41,-2.2313310852050776,181,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,42,-4.316396652221678,401,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,43,-1.1110691909790003,92,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,44,-2.3460155563354483,197,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,45,-10.01,1,enemy,0,False
+fast_epsilon_decay,Faster epsilon decay,46,-1.730772701263426,168,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,47,-3.7987310485839867,348,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,48,-3.4994957122802726,340,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,49,-4.985165901184073,467,enemy,1,False
+fast_epsilon_decay,Faster epsilon decay,50,-0.8251603851318343,51,enemy,1,False
+high_gamma,More patient (higher discount),1,-1.7857905578613185,169,enemy,1,False
+high_gamma,More patient (higher discount),2,-2.9584398269653214,286,enemy,1,False
+high_gamma,More patient (higher discount),3,-1.8495078811645413,175,enemy,1,False
+high_gamma,More patient (higher discount),4,-1.8760961990356524,178,enemy,1,False
+high_gamma,More patient (higher discount),5,-1.7957770080566355,170,enemy,1,False
+high_gamma,More patient (higher discount),6,-2.4295149383544947,233,enemy,1,False
+high_gamma,More patient (higher discount),7,-2.4995194778442267,240,enemy,1,False
+high_gamma,More patient (higher discount),8,-1.7974961891174335,175,enemy,1,False
+high_gamma,More patient (higher discount),9,-1.8184438552856328,172,enemy,1,False
+high_gamma,More patient (higher discount),10,-1.8984399261474572,180,enemy,1,False
+high_gamma,More patient (higher discount),11,-1.8883483734130824,179,enemy,1,False
+high_gamma,More patient (higher discount),12,-1.8917154312133881,177,enemy,1,False
+high_gamma,More patient (higher discount),13,-2.419514694213854,232,enemy,1,False
+high_gamma,More patient (higher discount),14,-2.4372089767456124,234,enemy,1,False
+high_gamma,More patient (higher discount),15,-1.8067479171752883,171,enemy,1,False
+high_gamma,More patient (higher discount),16,-2.416095268249518,232,enemy,1,False
+high_gamma,More patient (higher discount),17,-1.7461401824951253,165,enemy,1,False
+high_gamma,More patient (higher discount),18,-1.8071615219116168,171,enemy,1,False
+high_gamma,More patient (higher discount),19,-1.8195145339965801,172,enemy,1,False
+high_gamma,More patient (higher discount),20,-2.3995103302001892,230,enemy,1,False
+high_gamma,More patient (higher discount),21,-10.01,1,enemy,0,False
+high_gamma,More patient (higher discount),22,-1.7484409942626993,165,enemy,1,False
+high_gamma,More patient (higher discount),23,-3.629518043518054,353,enemy,1,False
+high_gamma,More patient (higher discount),24,-1.8303780899047855,171,enemy,1,False
+high_gamma,More patient (higher discount),25,-3.000379856109613,292,enemy,1,False
+high_gamma,More patient (higher discount),26,-1.8575352249145443,176,enemy,1,False
+high_gamma,More patient (higher discount),27,-2.4684436950683653,237,enemy,1,False
+high_gamma,More patient (higher discount),28,-1.8367434768676603,174,enemy,1,False
+high_gamma,More patient (higher discount),29,-1.7911387634277318,166,enemy,1,False
+high_gamma,More patient (higher discount),30,-1.798177093505867,170,enemy,1,False
+high_gamma,More patient (higher discount),31,-2.394411621093738,230,enemy,1,False
 high_gamma,More patient (higher discount),32,-10.01,1,enemy,0,False
-high_gamma,More patient (higher discount),33,31.88721770095826,324,success,2,True
-high_gamma,More patient (higher discount),34,-13.003576629638648,1000,timeout,1,False
-high_gamma,More patient (higher discount),35,32.389927192688006,268,success,2,True
-high_gamma,More patient (higher discount),36,-13.03216217041015,1000,timeout,1,False
-high_gamma,More patient (higher discount),37,-8.130174034118637,1000,timeout,1,False
-high_gamma,More patient (higher discount),38,30.715041572570808,441,success,2,True
-high_gamma,More patient (higher discount),39,-13.003509429931626,1000,timeout,1,False
-high_gamma,More patient (higher discount),40,28.884067359924323,623,success,2,True
-high_gamma,More patient (higher discount),41,-13.14817886352538,1000,timeout,1,False
-high_gamma,More patient (higher discount),42,25.780294845581082,928,success,2,True
-high_gamma,More patient (higher discount),43,-13.148156341552744,1000,timeout,1,False
-high_gamma,More patient (higher discount),44,30.70502347373967,442,success,2,True
-high_gamma,More patient (higher discount),45,-13.083106384277343,1000,timeout,1,False
-high_gamma,More patient (higher discount),46,-8.121341484069777,1000,timeout,1,False
-high_gamma,More patient (higher discount),47,32.51270125579834,261,success,2,True
-high_gamma,More patient (higher discount),48,-12.99376556396485,1000,timeout,1,False
-high_gamma,More patient (higher discount),49,31.977349153518688,315,success,2,True
-high_gamma,More patient (higher discount),50,-12.997961822509753,1000,timeout,1,False
+high_gamma,More patient (higher discount),33,-1.8684444885253821,177,enemy,1,False
+high_gamma,More patient (higher discount),34,-1.3464017257690415,107,enemy,1,False
+high_gamma,More patient (higher discount),35,-2.424326507568372,233,enemy,1,False
+high_gamma,More patient (higher discount),36,-4.227067260742179,414,enemy,1,False
+high_gamma,More patient (higher discount),37,-2.449517738342272,235,enemy,1,False
+high_gamma,More patient (higher discount),38,-2.496034339904792,240,enemy,1,False
+high_gamma,More patient (higher discount),39,-1.8584431152343637,176,enemy,1,False
+high_gamma,More patient (higher discount),40,-2.4110483703613106,228,enemy,1,False
+high_gamma,More patient (higher discount),41,-1.8295056610107352,173,enemy,1,False
+high_gamma,More patient (higher discount),42,-1.8784447708129903,178,enemy,1,False
+high_gamma,More patient (higher discount),43,-3.025796714782719,293,enemy,1,False
+high_gamma,More patient (higher discount),44,-1.8095108718871966,171,enemy,1,False
+high_gamma,More patient (higher discount),45,-2.436750617980965,234,enemy,1,False
+high_gamma,More patient (higher discount),46,-4.220535469055186,411,enemy,1,False
+high_gamma,More patient (higher discount),47,-2.476734882354738,236,enemy,1,False
+high_gamma,More patient (higher discount),48,-1.7251128768920694,160,enemy,1,False
+high_gamma,More patient (higher discount),49,-2.464636184692373,232,enemy,1,False
+high_gamma,More patient (higher discount),50,-2.479323318481442,235,enemy,1,False
