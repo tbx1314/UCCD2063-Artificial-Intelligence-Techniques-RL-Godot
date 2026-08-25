@@ -1,0 +1,2 @@
+name,label,seed,timesteps,states_visited,final_epsilon,training_seconds,alpha,gamma,epsilon_start,epsilon_min,epsilon_decay
+high_exploration,Higher exploration floor,848,200000,647,0.8745607565573406,394.958480100031,0.1,0.99,1.0,0.15,0.9995

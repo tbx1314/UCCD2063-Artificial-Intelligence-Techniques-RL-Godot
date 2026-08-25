@@ -5,5 +5,6 @@
     "editor.defaultFormatter": "geequlim.godot-tools",
     "editor.formatOnSave": true,
     "editor.insertSpaces": false
-  }
+  },
+  "godotTools.editorPath.godot4": "d:\\Downloads\\Godot_v4.7.1-stable_mono_win64\\Godot_v4.7.1-stable_mono_win64\\Godot_v4.7.1-stable_mono_win64.exe"
 }
