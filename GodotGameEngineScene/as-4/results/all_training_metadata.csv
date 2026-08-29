@@ -1,8 +1,0 @@
-queue_position,name,label,seed,port,timesteps,states_visited,final_epsilon,training_seconds,status,alpha,gamma,epsilon_start,epsilon_min,epsilon_decay
-1,baseline,Baseline,123,9201,200000,542,0.8741234761790619,398.3953497000039,completed,0.1,0.99,1.0,0.05,0.9995
-2,low_alpha,Lower learning rate,123,9202,200000,608,0.869762679586888,397.7994950999273,completed,0.03,0.99,1.0,0.05,0.9995
-3,high_alpha,Higher learning rate,123,9203,200000,649,0.8785061368352669,438.1369725000113,completed,0.3,0.99,1.0,0.05,0.9995
-4,high_exploration,Higher exploration floor,123,9204,200000,663,0.8693277982470946,508.40619120001793,completed,0.1,0.99,1.0,0.15,0.9995
-5,very_high_exploration,Much higher exploration floor,123,9205,200000,663,0.8693277982470946,508.48805679997895,completed,0.1,0.99,1.0,0.3,0.9995
-6,fast_epsilon_decay,Faster epsilon decay,123,9206,200000,566,0.7116492513781133,488.4610747999977,completed,0.1,0.99,1.0,0.05,0.999
-7,high_gamma,More patient (higher discount),123,9207,200000,560,0.869762679586888,407.03783200006,completed,0.1,0.995,1.0,0.05,0.9995

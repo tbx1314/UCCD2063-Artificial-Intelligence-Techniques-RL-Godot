@@ -1,0 +1,5 @@
+Configuration,Mean Reward,Reward Std,Mean Steps,Mean Apples,Completion Rate
+Baseline,17.84,17.57,89.3,1.68,68%
+Low Alpha,27.03,2.09,64.2,2.0,100%
+High Alpha,-8.01,0.0,999.0,1.0,0%
+Fast Epsilon Decay,26.46,1.64,121.4,2.0,100%

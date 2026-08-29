@@ -1,0 +1,40 @@
+[application]
+
+config/name="AS4"
+run/main_scene="uid://bnli43vl3sd5x"
+config/features=PackedStringArray("4.7", "Forward Plus")
+config/icon="res://icon.svg"
+
+[debug]
+
+# Disable debug stdout/stderr print statements to reduce IO latency during fast steps
+settings/stdout/print_fps=false
+settings/stdout/verbose_stdout=false
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+
+# Disable VSync and cap rendering effort
+window/vsync/vsync_mode=0
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+2d/default_gravity=2500.0
+
+# 1. Crank physics ticks to execute fast simulation frames without waiting for real time
+common/physics_ticks_per_second=240
+# 2. Prevent max physics step accumulation under heavy CPU load
+common/max_physics_steps_per_frame=8
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
+
+# Uncap target FPS so Python can cycle steps as fast as your CPU permits
+driver/target_fps=0
+
+# Lower 2D rendering cost if running non-headless
+vulkan/blur/mode=0

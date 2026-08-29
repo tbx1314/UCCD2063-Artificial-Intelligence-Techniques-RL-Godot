@@ -1,0 +1,13 @@
+Model,Train Comp (%),Val Comp (%),Comp Gap (%),Train Rew,Val Rew,Diagnosis,Details
+baseline_seed42,30.4,67.5,37.1,31.14,71.61,Well-Fitted / Robust,Strong validation performance (67.5% completion); policy generalizes effectively.
+eager_learner,9.4,2.5,-6.9,14.72,3.78,Diverged / Degenerate,Severe Q-value / loss explosion during training; numerical instability.
+megamind,45.8,57.5,11.7,48.2,62.74,Well-Fitted / Robust,Strong validation performance (57.5% completion); policy generalizes effectively.
+nerd,67.0,42.5,-24.5,65.27,49.31,Overfitted (Generalization Gap),"High training completion (67.0%), but validation dropped by 24.5% on unseen seeds."
+eager_nerd,64.7,77.5,12.8,62.06,79.58,Well-Fitted / Robust,Strong validation performance (77.5% completion); policy generalizes effectively.
+dementia,24.0,22.5,-1.5,28.26,33.71,Underfitted,"Low training & validation completion; insufficient capacity, short horizon, or high noise."
+explorer,0.5,0.0,-0.5,7.11,13.82,Underfitted,"Low training & validation completion; insufficient capacity, short horizon, or high noise."
+patient,35.1,37.5,2.4,35.93,38.4,Moderately Fitted,Moderate competency with expected generalization variance.
+speedrunner,31.7,45.0,13.3,33.21,53.67,Well-Fitted / Robust,Strong validation performance (45.0% completion); policy generalizes effectively.
+tank,40.2,37.5,-2.7,42.09,44.84,Moderately Fitted,Moderate competency with expected generalization variance.
+chaos,6.7,7.5,0.8,12.01,14.09,Underfitted,"Low training & validation completion; insufficient capacity, short horizon, or high noise."
+marathon,66.9,67.5,0.6,67.78,68.36,Well-Fitted / Robust,Strong validation performance (67.5% completion); policy generalizes effectively.

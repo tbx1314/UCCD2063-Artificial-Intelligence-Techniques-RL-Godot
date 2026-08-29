@@ -61,3 +61,8 @@ GodotGameEngineScene/*/results/**/*.translation
 *.temp
 .tmp/
 *~
+
+# Private
+*.mp4
+*.pdf
+*.pptx

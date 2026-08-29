@@ -1,8 +1,0 @@
-name,label,completion_rate_mean,completion_rate_std,mean_apples_mean,mean_apples_std,mean_reward_mean,mean_reward_std,seeds_evaluated
-baseline,Baseline,0.0,0.0,1.0,0.0,-6.559859264774341,3.57297484061619,4
-fast_epsilon_decay,Faster epsilon decay,0.0,0.0,1.0,0.0,-4.806811489791861,4.308217080292482,4
-high_alpha,Higher learning rate,0.0,0.0,1.0,0.0,-8.519425361862108,0.1471762264656303,4
-high_exploration,Higher exploration floor,0.0,0.0,1.0,0.0,-8.30141850324627,0.1402360331590347,4
-high_gamma,More patient (higher discount),0.0,0.0,1.0,0.0,-3.0859954179763753,3.5012629023670296,4
-low_alpha,Lower learning rate,0.0,0.0,0.0,0.0,-18.010968833923187,0.006396621960913563,4
-very_high_exploration,Much higher exploration floor,0.0,0.0,1.0,0.0,-6.4957934177780166,3.5273931245812267,4

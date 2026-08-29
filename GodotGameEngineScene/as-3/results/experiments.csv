@@ -1,6 +1,0 @@
-run_name,alpha,gamma,epsilon
-baseline,0.1,0.99,1.0
-low_lr,0.01,0.99,1.0
-high_lr,0.5,0.99,1.0
-high_gamma,0.1,0.995,1.0
-low_exploration,0.1,0.99,0.5
